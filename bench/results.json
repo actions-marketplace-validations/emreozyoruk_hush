@@ -1,0 +1,3522 @@
+[
+ {
+  "repo": "vercel/next.js",
+  "number": 74972,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 89205,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74998,
+  "gold": "bug",
+  "choice": "none",
+  "p": 0.84,
+  "confidence": 0.79
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 84141,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74963,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.81,
+  "confidence": 0.76
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74926,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 89207,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74984,
+  "gold": "bug",
+  "choice": "question",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74829,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74898,
+  "gold": "bug",
+  "choice": "feature",
+  "p": 0.5,
+  "confidence": 0.37
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74826,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74812,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.7,
+  "confidence": 0.62
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74824,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.9,
+  "confidence": 0.86
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74865,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74790,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74847,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.56,
+  "confidence": 0.46
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74807,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.88,
+  "confidence": 0.84
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74843,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74762,
+  "gold": "bug",
+  "choice": "question",
+  "p": 0.63,
+  "confidence": 0.54
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74747,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74742,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.97,
+  "confidence": 0.95
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74782,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.89,
+  "confidence": 0.86
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74783,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.92,
+  "confidence": 0.9
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74899,
+  "gold": "bug",
+  "choice": "feature",
+  "p": 0.54,
+  "confidence": 0.43
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74678,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74644,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74726,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74642,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.75,
+  "confidence": 0.69
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74616,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74613,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74611,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74592,
+  "gold": "bug",
+  "choice": "feature",
+  "p": 0.74,
+  "confidence": 0.67
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74591,
+  "gold": "bug",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74545,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.9,
+  "confidence": 0.88
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74525,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74547,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.94,
+  "confidence": 0.92
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 18334,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74439,
+  "gold": "bug",
+  "choice": "feature",
+  "p": 0.65,
+  "confidence": 0.56
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 17924,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 17904,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 18490,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 17760,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16524,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16627,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.85,
+  "confidence": 0.8
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16115,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16114,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16109,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16104,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15757,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.88,
+  "confidence": 0.85
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15870,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15753,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15657,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15256,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15488,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15229,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15523,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15212,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16805,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16577,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15149,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74925,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15210,
+  "gold": "bug",
+  "choice": "question",
+  "p": 0.55,
+  "confidence": 0.44
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15194,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15126,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15125,
+  "gold": "bug",
+  "choice": "question",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14961,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15042,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.91,
+  "confidence": 0.87
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15096,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.96,
+  "confidence": 0.95
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14956,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14976,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14902,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14869,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.53,
+  "confidence": 0.4
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14814,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14732,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14746,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14723,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14684,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.92,
+  "confidence": 0.9
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14671,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 36536,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 36514,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 36518,
+  "gold": "bug",
+  "choice": "feature",
+  "p": 0.73,
+  "confidence": 0.65
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 36516,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 36503,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.96
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 36498,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 36462,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 36456,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 35295,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 35824,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 36418,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 35339,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 36413,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.8,
+  "confidence": 0.75
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 34975,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 35170,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 34837,
+  "gold": "bug",
+  "choice": "question",
+  "p": 0.63,
+  "confidence": 0.53
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 33272,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.86,
+  "confidence": 0.82
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 32372,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 34585,
+  "gold": "bug",
+  "choice": "question",
+  "p": 0.56,
+  "confidence": 0.44
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 34246,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 32181,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.92,
+  "confidence": 0.9
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 32350,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 32156,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 32180,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 32099,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.85,
+  "confidence": 0.8
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 34522,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.82,
+  "confidence": 0.78
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15883,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 34667,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 13728,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 13331,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.47,
+  "confidence": 0.34
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 32113,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 32057,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.94,
+  "confidence": 0.93
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 31924,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.95,
+  "confidence": 0.94
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 12980,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 12925,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.63,
+  "confidence": 0.54
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 12668,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.95,
+  "confidence": 0.93
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 31529,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 12434,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 12362,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 12151,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.89,
+  "confidence": 0.86
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 12637,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 11702,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 11358,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.97,
+  "confidence": 0.95
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 11536,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 12112,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.92,
+  "confidence": 0.9
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 10352,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 32063,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 11022,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 11046,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.63,
+  "confidence": 0.54
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 10350,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 11055,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 10341,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 10334,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.95,
+  "confidence": 0.94
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 9582,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 9173,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 8949,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 8941,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 8285,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 8636,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.97,
+  "confidence": 0.95
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 8112,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 7943,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.89,
+  "confidence": 0.86
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 8235,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.66,
+  "confidence": 0.58
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 7630,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 7673,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 7680,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.78,
+  "confidence": 0.72
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 7596,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 7584,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 7568,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 7517,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 7520,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 7437,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21182,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 7456,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 19083,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 19035,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.9,
+  "confidence": 0.87
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 18835,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 18920,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.62,
+  "confidence": 0.52
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 19373,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.72,
+  "confidence": 0.64
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 18600,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.7,
+  "confidence": 0.62
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 19109,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 18264,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.73,
+  "confidence": 0.66
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 17453,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 17508,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.94,
+  "confidence": 0.93
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 17672,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 17892,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 16616,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 15726,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.64,
+  "confidence": 0.54
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 16438,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.71,
+  "confidence": 0.64
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 16118,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 15611,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 15686,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.59,
+  "confidence": 0.49
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 15514,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 14931,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 15143,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 19201,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.96,
+  "confidence": 0.95
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 14170,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.91,
+  "confidence": 0.89
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 14185,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 14527,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 14689,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 13894,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 13957,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 13748,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 13848,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 13235,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 13459,
+  "gold": "feature",
+  "choice": "docs",
+  "p": 0.84,
+  "confidence": 0.79
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 13950,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.84,
+  "confidence": 0.8
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 13624,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 13512,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.78,
+  "confidence": 0.73
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 13706,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 13220,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 12992,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 12958,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42829,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 41991,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 41379,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 41872,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 43171,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 41167,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.89,
+  "confidence": 0.86
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 40777,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 41168,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.95,
+  "confidence": 0.94
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 41356,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 41113,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.86,
+  "confidence": 0.82
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 40789,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 40523,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 40471,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 37144,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 40133,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 36967,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 39976,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 38250,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 37028,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.88,
+  "confidence": 0.85
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 40121,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 36428,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 34165,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 34839,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 36058,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 33050,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 35281,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.91,
+  "confidence": 0.89
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 33654,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 33146,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.5,
+  "confidence": 0.37
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 32456,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 73782,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74121,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 73809,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 82379,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.72,
+  "confidence": 0.64
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74700,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74986,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 73205,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 73267,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 73141,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 73175,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 73002,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.9400000000000001,
+  "confidence": 0.91
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 73109,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 72937,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 72566,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 72378,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 72325,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 72615,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.77,
+  "confidence": 0.71
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 72507,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 72303,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.65,
+  "confidence": 0.56
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 72266,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 32607,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 72499,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.97,
+  "confidence": 0.97
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 72158,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 72213,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 72152,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 72244,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 71931,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 71905,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.58,
+  "confidence": 0.47
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 72025,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.54,
+  "confidence": 0.41
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 71750,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 71676,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 18129,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 71864,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 71839,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 71675,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 71679,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 18022,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.65,
+  "confidence": 0.56
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 17958,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 17660,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 17624,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.57,
+  "confidence": 0.47
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 17430,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 17383,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16870,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.93,
+  "confidence": 0.92
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16652,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16598,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16474,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.94,
+  "confidence": 0.92
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16528,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16370,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16739,
+  "gold": "docs",
+  "choice": "feature",
+  "p": 0.85,
+  "confidence": 0.8
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16471,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16123,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16004,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.92,
+  "confidence": 0.9
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16182,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.96,
+  "confidence": 0.95
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15992,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15509,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15677,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.51,
+  "confidence": 0.38
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15691,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15588,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15289,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15370,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15151,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15175,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14949,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14919,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14803,
+  "gold": "docs",
+  "choice": "question",
+  "p": 0.79,
+  "confidence": 0.73
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14760,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.78,
+  "confidence": 0.73
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14752,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14727,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14716,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14900,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14420,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14560,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 23220,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.97,
+  "confidence": 0.97
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 23122,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14300,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 23150,
+  "gold": "docs",
+  "choice": "feature",
+  "p": 0.46,
+  "confidence": 0.33
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14261,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 23504,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.63,
+  "confidence": 0.54
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14187,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 22641,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 22489,
+  "gold": "docs",
+  "choice": "feature",
+  "p": 0.9,
+  "confidence": 0.87
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 22456,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 22772,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.96,
+  "confidence": 0.95
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 22049,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.95,
+  "confidence": 0.93
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 22526,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.9,
+  "confidence": 0.87
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21915,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 22190,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21805,
+  "gold": "docs",
+  "choice": "none",
+  "p": 0.94,
+  "confidence": 0.93
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 22209,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21913,
+  "gold": "docs",
+  "choice": "none",
+  "p": 0.9,
+  "confidence": 0.88
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21901,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.78,
+  "confidence": 0.73
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21806,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21798,
+  "gold": "docs",
+  "choice": "feature",
+  "p": 0.34,
+  "confidence": 0.18
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 22975,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.41,
+  "confidence": 0.27
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21602,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.74,
+  "confidence": 0.68
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21815,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21526,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21678,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.62,
+  "confidence": 0.52
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21514,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21592,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21581,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.88,
+  "confidence": 0.85
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21644,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21500,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21430,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.47,
+  "confidence": 0.33
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21438,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21295,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.93,
+  "confidence": 0.9
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21414,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21385,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21317,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21384,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.56,
+  "confidence": 0.45
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21386,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 35821,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.8,
+  "confidence": 0.75
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 35837,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 31078,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.97,
+  "confidence": 0.95
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 31904,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.75,
+  "confidence": 0.68
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 30985,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.8,
+  "confidence": 0.75
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 32176,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.48,
+  "confidence": 0.35
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 31717,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.66,
+  "confidence": 0.57
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 32363,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.96,
+  "confidence": 0.94
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 30392,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 30822,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.78,
+  "confidence": 0.72
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 30357,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.77,
+  "confidence": 0.71
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 30856,
+  "gold": "question",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 30133,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.86,
+  "confidence": 0.82
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 30353,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.64,
+  "confidence": 0.55
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 30331,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.91,
+  "confidence": 0.88
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 29890,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.95,
+  "confidence": 0.94
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 29817,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.91,
+  "confidence": 0.88
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 29660,
+  "gold": "question",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 29826,
+  "gold": "question",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 29655,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 29414,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.5700000000000001,
+  "confidence": 0.45
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 29458,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.89,
+  "confidence": 0.86
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 29535,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 28947,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.93,
+  "confidence": 0.91
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 29411,
+  "gold": "question",
+  "choice": "question",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 29174,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.5,
+  "confidence": 0.37
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 29252,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.97,
+  "confidence": 0.97
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 28970,
+  "gold": "question",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 28940,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.87,
+  "confidence": 0.84
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 28708,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.85,
+  "confidence": 0.82
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 28729,
+  "gold": "question",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 28520,
+  "gold": "question",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 28553,
+  "gold": "question",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 28892,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.85,
+  "confidence": 0.82
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 28518,
+  "gold": "question",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 28393,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.84,
+  "confidence": 0.8
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 28419,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.95,
+  "confidence": 0.94
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 28430,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.81,
+  "confidence": 0.76
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 28315,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.9,
+  "confidence": 0.87
+ },
+ {
+  "repo": "remix-run/react-router",
+  "number": 14022,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.56,
+  "confidence": 0.45
+ },
+ {
+  "repo": "remix-run/react-router",
+  "number": 10145,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 23529,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 16485,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 18931,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 7318,
+  "gold": "question",
+  "choice": "question",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 10343,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.5700000000000001,
+  "confidence": 0.45
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 16773,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 6532,
+  "gold": "question",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 14810,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.88,
+  "confidence": 0.86
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 1099,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.61,
+  "confidence": 0.51
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 1091,
+  "gold": "question",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 983,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.85,
+  "confidence": 0.8
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 1008,
+  "gold": "question",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 762,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.77,
+  "confidence": 0.71
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 838,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.58,
+  "confidence": 0.48
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 777,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 770,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.53,
+  "confidence": 0.41
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 733,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 726,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.72,
+  "confidence": 0.64
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 744,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.6900000000000001,
+  "confidence": 0.61
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 40696,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.86,
+  "confidence": 0.83
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 30340,
+  "gold": "question",
+  "choice": "docs",
+  "p": 0.82,
+  "confidence": 0.77
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 40279,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.9,
+  "confidence": 0.87
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 40215,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.81,
+  "confidence": 0.75
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 33737,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.93,
+  "confidence": 0.91
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 41958,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.72,
+  "confidence": 0.64
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 33596,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 28249,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.96,
+  "confidence": 0.94
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 12293,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.85,
+  "confidence": 0.81
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 180,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.96,
+  "confidence": 0.94
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 190,
+  "gold": "question",
+  "choice": "question",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 155,
+  "gold": "question",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 22537,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.68,
+  "confidence": 0.59
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 198,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.61,
+  "confidence": 0.51
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 39556,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "TanStack/query",
+  "number": 4693,
+  "gold": "question",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 33535,
+  "gold": "question",
+  "choice": "question",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "TanStack/query",
+  "number": 4678,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.87,
+  "confidence": 0.83
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 20714,
+  "gold": "question",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 21786,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.96,
+  "confidence": 0.95
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 14512,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 14549,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 29764,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 10313,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.91,
+  "confidence": 0.88
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 13728,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.94,
+  "confidence": 0.93
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 22145,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.7,
+  "confidence": 0.62
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 9318,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 9556,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.57,
+  "confidence": 0.46
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 9324,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.9,
+  "confidence": 0.87
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 9709,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.75,
+  "confidence": 0.68
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 9098,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.51,
+  "confidence": 0.37
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 12791,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.8,
+  "confidence": 0.74
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 9156,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 13320,
+  "gold": "question",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8952,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.84,
+  "confidence": 0.79
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8705,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.89,
+  "confidence": 0.85
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8649,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.86,
+  "confidence": 0.83
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 9035,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.87,
+  "confidence": 0.83
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8710,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.82,
+  "confidence": 0.77
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8941,
+  "gold": "question",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8571,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8606,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8507,
+  "gold": "question",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8387,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8253,
+  "gold": "question",
+  "choice": "question",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8322,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.92,
+  "confidence": 0.89
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8075,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.89,
+  "confidence": 0.87
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8095,
+  "gold": "question",
+  "choice": "question",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8072,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8036,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.95,
+  "confidence": 0.93
+ }
+]

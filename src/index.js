@@ -3,16 +3,11 @@
 
 import { readFileSync, appendFileSync } from "node:fs";
 import { ask } from "./jev.js";
+import { DEFAULT_LABELS } from "./labels.js";
 import { buildQuestions, buildState, decide, labelsToApply, abstained, ABSTAIN } from "./triage.js";
 import { addLabels, comment, existingLabels, openIssueTitles } from "./github.js";
 import { readBool as bool, readInput as input, readNum as num } from "./inputs.js";
 
-const DEFAULT_LABELS = {
-  bug: "A defect: something in the project behaves incorrectly.",
-  feature: "A request for functionality that does not exist yet.",
-  docs: "A problem with documentation, examples, or the README.",
-  question: "A usage question rather than a defect or request.",
-};
 
 function summary(lines) {
   const path = process.env.GITHUB_STEP_SUMMARY;

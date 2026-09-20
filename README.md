@@ -122,6 +122,38 @@ it as a repository secret.
 run showing what it would have done. Read a week of those, move your thresholds,
 then set `apply: true`.
 
+## Is 0.80 a good threshold?
+
+Measured, not asserted. 440 closed issues from nine large repositories, each
+carrying exactly one label its own maintainers applied — then hush is asked the
+same question and the answers are compared.
+
+| threshold | acts on | precision | stays quiet |
+|---|---|---|---|
+| 0.70 | 392/440 | 74% | 11% |
+| **0.80** *(default)* | **368/440** | **76%** | **16%** |
+| 0.90 | 327/440 | 78% | 26% |
+| 0.95 | 297/440 | 80% | 32% |
+
+Precision is not evenly spread, and the shape of that is the useful part:
+
+| bug | feature | docs | question |
+|---|---|---|---|
+| **97%** | 86% | 78% | **38%** |
+
+Almost every disagreement is one class. Repositories don't use `question` as a
+category — they use it as a workflow state, meaning "this is support, not our
+bug tracker". Several issues their maintainers labelled `question` are textbook
+defect reports with version numbers and reproduction steps.
+
+**Excluding `question`: 87% across 281 decisions.** The label that gets applied
+most, `bug`, is the one it is best at.
+
+The lesson for configuring it: thresholds are the blunt instrument, the label
+descriptions are the sharp one. Sharpening the four default descriptions — naming
+what each label is *not* — moved the whole benchmark from 73% to 76%, and `bug`
+to 97%. Method, dataset and the raw results: [`bench/`](bench/).
+
 ## Your labels, your words
 
 The default set is `bug`, `feature`, `docs`, `question`. Replace it with your own —

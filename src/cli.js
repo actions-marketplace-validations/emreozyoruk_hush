@@ -3,6 +3,7 @@
 // Reads open issues, judges each one, prints the table. Writes nothing.
 
 import { ask, JevError } from "./jev.js";
+import { DEFAULT_LABELS } from "./labels.js";
 import { buildQuestions, buildState, decide, labelsToApply, ABSTAIN } from "./triage.js";
 import { existingLabels, openIssueTitles } from "./github.js";
 import { execFileSync } from "node:child_process";
@@ -11,12 +12,6 @@ const C = process.stdout.isTTY && !process.env.NO_COLOR
   ? { d: "\x1b[2m", r: "\x1b[0m", g: "\x1b[32m", y: "\x1b[33m", b: "\x1b[1m", c: "\x1b[36m", red: "\x1b[31m" }
   : { d: "", r: "", g: "", y: "", b: "", c: "", red: "" };
 
-const DEFAULT_LABELS = {
-  bug: "A defect: something in the project behaves incorrectly.",
-  feature: "A request for functionality that does not exist yet.",
-  docs: "A problem with documentation, examples, or the README.",
-  question: "A usage question rather than a defect or request.",
-};
 const T = { label: 0.8, label_confidence: 0.6, spam: 0.9, needs_info: 0.85, duplicate: 0.85 };
 
 const USAGE = `
