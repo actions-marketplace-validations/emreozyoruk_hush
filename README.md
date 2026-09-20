@@ -19,6 +19,15 @@ say how sure it is. When it can't, it does nothing and tells you why.
 
 Real output, 202–530 ms per issue.
 
+And the part that matters, from [its own first issue](https://github.com/emreozyoruk/hush/issues/1) —
+a report that could reasonably be a bug or a documentation problem:
+
+```
+label | stayed quiet | bug 72% / confidence 63% — below 80% / 60%
+```
+
+It had an answer. It wasn't sure enough. So it said nothing.
+
 ## Why another triage bot
 
 Because the others talk when they shouldn't.
