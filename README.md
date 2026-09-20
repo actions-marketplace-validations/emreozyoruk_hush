@@ -2,8 +2,14 @@
 
 **Issue triage that stays quiet when it isn't sure.**
 
+[![Marketplace](https://img.shields.io/badge/GitHub%20Marketplace-Hush%20Issue%20Triage-6f42c1?logo=github)](https://github.com/marketplace/actions/hush-issue-triage)
+[![Tests](https://github.com/emreozyoruk/hush/actions/workflows/test.yml/badge.svg)](https://github.com/emreozyoruk/hush/actions/workflows/test.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 A GitHub Action that reads every new issue and labels it — but only when it can
 say how sure it is. When it can't, it does nothing and tells you why.
+
+![hush deciding what to say about an issue, and what not to](docs/hero.png)
 
 ```
 ■ "Crash on save when filename is very long"
