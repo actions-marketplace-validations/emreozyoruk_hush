@@ -125,42 +125,45 @@ then set `apply: true`.
 
 ## Is 0.80 a good threshold?
 
-Measured, not asserted. 800 closed issues from eleven large repositories, each
-carrying exactly one label its own maintainers applied — then hush is asked the
-same question and the answers are compared.
+Measured, not asserted. 800 closed issues from fourteen repositories across four
+ecosystems, each carrying exactly one label its own maintainers applied — then
+hush is asked the same question and the answers are compared.
 
 | threshold | acts on | precision | stays quiet |
 |---|---|---|---|
-| 0.70 | 713/800 | 73% | 11% |
-| **0.80** *(default)* | **664/800** | **75%** | **17%** |
-| 0.90 | 592/800 | 79% | 26% |
-| 0.95 | 547/800 | 81% | 32% |
+| 0.70 | 701/800 | 76% | 12% |
+| **0.80** *(default)* | **649/800** | **78%** | **19%** |
+| 0.90 | 573/800 | 80% | 28% |
+| 0.95 | 521/800 | 83% | 35% |
 
 Precision is not evenly spread, and the shape of that is the useful part:
 
 | bug | feature | docs | question |
 |---|---|---|---|
-| **98%** | 85% | 82% | **33%** |
+| **97%** | 86% | 82% | **40%** |
 
 Almost every disagreement is one class. Repositories don't use `question` as a
 category — they use it as a workflow state, meaning "this is support, not our
 bug tracker". Several issues their maintainers labelled `question` are textbook
 defect reports with version numbers and reproduction steps.
 
-**Excluding `question`: 88% across 511 decisions.** The label that gets applied
-most, `bug`, is the one it is best at — 98%.
+**Excluding `question`: 88% across 508 decisions.** The label that gets applied
+most, `bug`, is the one it is best at — 97%.
 
-And the default travels. Split by ecosystem, excluding `question`:
+And the default travels. Excluding `question`, by ecosystem:
 
-| JavaScript / TypeScript | Python |
-|---|---|
-| 88% | 87% |
+| JavaScript | Rust | Go | Python |
+|---|---|---|---|
+| 90% | 90% | 89% | 85% |
 
-Two points that matter for configuring it. First, the curve is shallow: moving
-from 0.80 to 0.95 buys six points of precision and costs fifteen points of
-coverage. Second, thresholds are the blunt instrument and the label descriptions
-are the sharp one — sharpening the four defaults to name what each label is *not*
-moved the benchmark three points and `bug` to 98%.
+Four ecosystems, five points apart. Whatever the default is doing, it is not
+fitted to one community's way of writing issues.
+
+Two things that matter for configuring it. The curve is shallow — moving from
+0.80 to 0.95 buys five points of precision and costs sixteen points of coverage.
+And thresholds are the blunt instrument while the label descriptions are the
+sharp one: sharpening the four defaults to name what each label is *not* moved
+the benchmark three points and `bug` to 97%.
 
 Method, dataset and raw results: [`bench/`](bench/).
 
