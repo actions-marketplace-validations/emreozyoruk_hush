@@ -1,0 +1,18 @@
+name: A verdict you disagree with
+description: hush acted when it should have stayed quiet, or the other way round
+labels: [question]
+body:
+  - type: textarea
+    attributes:
+      label: The issue it judged
+      description: Title and body, or a link if the repository is public.
+    validations: { required: true }
+  - type: textarea
+    attributes:
+      label: The summary table it produced
+      description: Copy the whole table — the probabilities are what make this actionable.
+    validations: { required: true }
+  - type: textarea
+    attributes:
+      label: What it should have done
+    validations: { required: true }

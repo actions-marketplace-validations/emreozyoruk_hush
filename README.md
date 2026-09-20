@@ -9,7 +9,7 @@
 A GitHub Action that reads every new issue and labels it — but only when it can
 say how sure it is. When it can't, it does nothing and tells you why.
 
-![hush deciding what to say about an issue, and what not to](docs/hero.png)
+![hush answering four questions about an issue and acting on the two it was sure of](docs/demo.gif)
 
 ```
 ■ "Crash on save when filename is very long"

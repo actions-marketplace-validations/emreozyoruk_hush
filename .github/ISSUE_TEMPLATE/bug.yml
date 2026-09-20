@@ -1,0 +1,17 @@
+name: Bug
+description: Something in hush behaves differently than documented
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: What happened
+      description: Paste the hush summary table from the failing run if you have it.
+    validations: { required: true }
+  - type: textarea
+    attributes:
+      label: What you expected instead
+    validations: { required: true }
+  - type: input
+    attributes:
+      label: Version
+      placeholder: "emreozyoruk/hush@v1"
