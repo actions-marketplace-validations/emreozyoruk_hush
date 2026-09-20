@@ -1,4 +1,5 @@
-# hush triaging its own issues. Reporting only until the thresholds have earned trust.
+# hush triaging its own issues, for real. The thresholds below are the defaults;
+# a week of dry-run summaries is what earned them.
 name: triage
 on:
   issues:
@@ -15,4 +16,5 @@ jobs:
       - uses: ./
         with:
           typesafe-api-key: ${{ secrets.TYPESAFE_API_KEY }}
-          apply: false
+          apply: true
+          comment: true
