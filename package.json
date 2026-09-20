@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "private": false,
   "type": "module",
-  "description": "Issue triage that stays quiet when it is not sure.",
+  "description": "Issue and pull request triage that stays quiet when it isn't sure. Calibrated labels, spam, duplicates and PR risk flags \u2014 as a GitHub Action or a CLI.",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "bench": "node bench/run.js"
   },
   "license": "MIT",
   "bin": {
-    "hush-triage": "src/cli.js"
+    "hush-triage": "src/cli.js",
+    "hush": "src/cli.js"
   },
   "files": [
     "src",
@@ -24,12 +26,23 @@
   "keywords": [
     "github-action",
     "issue-triage",
+    "pull-request",
     "triage",
+    "labels",
     "jev",
     "typesafe",
-    "labels"
+    "system-one",
+    "calibration",
+    "maintainer",
+    "automation",
+    "cli"
   ],
   "engines": {
     "node": ">=20"
-  }
+  },
+  "homepage": "https://github.com/emreozyoruk/hush#readme",
+  "bugs": {
+    "url": "https://github.com/emreozyoruk/hush/issues"
+  },
+  "author": "Emre \u00d6zy\u00f6r\u00fck"
 }
