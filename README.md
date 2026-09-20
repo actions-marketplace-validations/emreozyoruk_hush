@@ -124,35 +124,44 @@ then set `apply: true`.
 
 ## Is 0.80 a good threshold?
 
-Measured, not asserted. 440 closed issues from nine large repositories, each
+Measured, not asserted. 800 closed issues from eleven large repositories, each
 carrying exactly one label its own maintainers applied — then hush is asked the
 same question and the answers are compared.
 
 | threshold | acts on | precision | stays quiet |
 |---|---|---|---|
-| 0.70 | 392/440 | 74% | 11% |
-| **0.80** *(default)* | **368/440** | **76%** | **16%** |
-| 0.90 | 327/440 | 78% | 26% |
-| 0.95 | 297/440 | 80% | 32% |
+| 0.70 | 713/800 | 73% | 11% |
+| **0.80** *(default)* | **664/800** | **75%** | **17%** |
+| 0.90 | 592/800 | 79% | 26% |
+| 0.95 | 547/800 | 81% | 32% |
 
 Precision is not evenly spread, and the shape of that is the useful part:
 
 | bug | feature | docs | question |
 |---|---|---|---|
-| **97%** | 86% | 78% | **38%** |
+| **98%** | 85% | 82% | **33%** |
 
 Almost every disagreement is one class. Repositories don't use `question` as a
 category — they use it as a workflow state, meaning "this is support, not our
 bug tracker". Several issues their maintainers labelled `question` are textbook
 defect reports with version numbers and reproduction steps.
 
-**Excluding `question`: 87% across 281 decisions.** The label that gets applied
-most, `bug`, is the one it is best at.
+**Excluding `question`: 88% across 511 decisions.** The label that gets applied
+most, `bug`, is the one it is best at — 98%.
 
-The lesson for configuring it: thresholds are the blunt instrument, the label
-descriptions are the sharp one. Sharpening the four default descriptions — naming
-what each label is *not* — moved the whole benchmark from 73% to 76%, and `bug`
-to 97%. Method, dataset and the raw results: [`bench/`](bench/).
+And the default travels. Split by ecosystem, excluding `question`:
+
+| JavaScript / TypeScript | Python |
+|---|---|
+| 88% | 87% |
+
+Two points that matter for configuring it. First, the curve is shallow: moving
+from 0.80 to 0.95 buys six points of precision and costs fifteen points of
+coverage. Second, thresholds are the blunt instrument and the label descriptions
+are the sharp one — sharpening the four defaults to name what each label is *not*
+moved the benchmark three points and `bug` to 98%.
+
+Method, dataset and raw results: [`bench/`](bench/).
 
 ## Your labels, your words
 

@@ -1,51 +1,11 @@
 [
  {
   "repo": "vercel/next.js",
-  "number": 74972,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 0.99,
-  "confidence": 0.98
- },
- {
-  "repo": "vercel/next.js",
-  "number": 89205,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "vercel/next.js",
-  "number": 74998,
-  "gold": "bug",
-  "choice": "none",
-  "p": 0.84,
-  "confidence": 0.79
- },
- {
-  "repo": "vercel/next.js",
-  "number": 84141,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 0.98,
-  "confidence": 0.97
- },
- {
-  "repo": "vercel/next.js",
   "number": 74963,
   "gold": "bug",
   "choice": "bug",
-  "p": 0.81,
-  "confidence": 0.76
- },
- {
-  "repo": "vercel/next.js",
-  "number": 74926,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 1
+  "p": 0.83,
+  "confidence": 0.77
  },
  {
   "repo": "vercel/next.js",
@@ -57,31 +17,39 @@
  },
  {
   "repo": "vercel/next.js",
-  "number": 74984,
+  "number": 74998,
   "gold": "bug",
-  "choice": "question",
-  "p": 1,
+  "choice": "none",
+  "p": 0.81,
+  "confidence": 0.76
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 84141,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.99,
   "confidence": 0.99
  },
  {
   "repo": "vercel/next.js",
-  "number": 74829,
+  "number": 74972,
   "gold": "bug",
   "choice": "bug",
-  "p": 0.98,
-  "confidence": 0.97
+  "p": 0.99,
+  "confidence": 0.98
  },
  {
   "repo": "vercel/next.js",
-  "number": 74898,
+  "number": 74984,
   "gold": "bug",
-  "choice": "feature",
-  "p": 0.5,
-  "confidence": 0.37
+  "choice": "question",
+  "p": 1,
+  "confidence": 1
  },
  {
   "repo": "vercel/next.js",
-  "number": 74826,
+  "number": 74926,
   "gold": "bug",
   "choice": "bug",
   "p": 1,
@@ -89,19 +57,35 @@
  },
  {
   "repo": "vercel/next.js",
-  "number": 74812,
+  "number": 89205,
   "gold": "bug",
   "choice": "bug",
-  "p": 0.7,
-  "confidence": 0.62
+  "p": 1,
+  "confidence": 1
  },
  {
   "repo": "vercel/next.js",
-  "number": 74824,
+  "number": 74899,
+  "gold": "bug",
+  "choice": "feature",
+  "p": 0.56,
+  "confidence": 0.44
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74898,
   "gold": "bug",
   "choice": "bug",
-  "p": 0.9,
-  "confidence": 0.86
+  "p": 0.52,
+  "confidence": 0.39
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74847,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.53,
+  "confidence": 0.41
  },
  {
   "repo": "vercel/next.js",
@@ -113,27 +97,19 @@
  },
  {
   "repo": "vercel/next.js",
-  "number": 74790,
+  "number": 74829,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74826,
   "gold": "bug",
   "choice": "bug",
   "p": 1,
   "confidence": 1
- },
- {
-  "repo": "vercel/next.js",
-  "number": 74847,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 0.56,
-  "confidence": 0.46
- },
- {
-  "repo": "vercel/next.js",
-  "number": 74807,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 0.88,
-  "confidence": 0.84
  },
  {
   "repo": "vercel/next.js",
@@ -145,11 +121,51 @@
  },
  {
   "repo": "vercel/next.js",
+  "number": 74824,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.91,
+  "confidence": 0.88
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74807,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.9,
+  "confidence": 0.88
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74925,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74812,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.72,
+  "confidence": 0.63
+ },
+ {
+  "repo": "vercel/next.js",
   "number": 74762,
   "gold": "bug",
   "choice": "question",
-  "p": 0.63,
-  "confidence": 0.54
+  "p": 0.66,
+  "confidence": 0.58
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74782,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.87,
+  "confidence": 0.84
  },
  {
   "repo": "vercel/next.js",
@@ -161,22 +177,6 @@
  },
  {
   "repo": "vercel/next.js",
-  "number": 74742,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 0.97,
-  "confidence": 0.95
- },
- {
-  "repo": "vercel/next.js",
-  "number": 74782,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 0.89,
-  "confidence": 0.86
- },
- {
-  "repo": "vercel/next.js",
   "number": 74783,
   "gold": "bug",
   "choice": "bug",
@@ -185,27 +185,11 @@
  },
  {
   "repo": "vercel/next.js",
-  "number": 74899,
-  "gold": "bug",
-  "choice": "feature",
-  "p": 0.54,
-  "confidence": 0.43
- },
- {
-  "repo": "vercel/next.js",
-  "number": 74678,
+  "number": 74790,
   "gold": "bug",
   "choice": "bug",
   "p": 1,
   "confidence": 1
- },
- {
-  "repo": "vercel/next.js",
-  "number": 74644,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 0.99,
-  "confidence": 0.99
  },
  {
   "repo": "vercel/next.js",
@@ -217,15 +201,31 @@
  },
  {
   "repo": "vercel/next.js",
-  "number": 74642,
+  "number": 74742,
   "gold": "bug",
   "choice": "bug",
-  "p": 0.75,
-  "confidence": 0.69
+  "p": 0.97,
+  "confidence": 0.96
  },
  {
   "repo": "vercel/next.js",
-  "number": 74616,
+  "number": 74644,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74642,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.71,
+  "confidence": 0.64
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 74678,
   "gold": "bug",
   "choice": "bug",
   "p": 1,
@@ -244,7 +244,7 @@
   "number": 74611,
   "gold": "bug",
   "choice": "bug",
-  "p": 1,
+  "p": 0.99,
   "confidence": 0.99
  },
  {
@@ -252,14 +252,14 @@
   "number": 74592,
   "gold": "bug",
   "choice": "feature",
-  "p": 0.74,
-  "confidence": 0.67
+  "p": 0.7,
+  "confidence": 0.62
  },
  {
   "repo": "vercel/next.js",
-  "number": 74591,
+  "number": 74616,
   "gold": "bug",
-  "choice": "feature",
+  "choice": "bug",
   "p": 1,
   "confidence": 1
  },
@@ -268,16 +268,8 @@
   "number": 74545,
   "gold": "bug",
   "choice": "bug",
-  "p": 0.9,
-  "confidence": 0.88
- },
- {
-  "repo": "vercel/next.js",
-  "number": 74525,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 1
+  "p": 0.91,
+  "confidence": 0.87
  },
  {
   "repo": "vercel/next.js",
@@ -288,10 +280,10 @@
   "confidence": 0.92
  },
  {
-  "repo": "sveltejs/svelte",
-  "number": 18334,
+  "repo": "vercel/next.js",
+  "number": 74591,
   "gold": "bug",
-  "choice": "bug",
+  "choice": "feature",
   "p": 1,
   "confidence": 1
  },
@@ -304,16 +296,8 @@
   "confidence": 0.56
  },
  {
-  "repo": "sveltejs/svelte",
-  "number": 17924,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 17904,
+  "repo": "vercel/next.js",
+  "number": 74525,
   "gold": "bug",
   "choice": "bug",
   "p": 1,
@@ -322,6 +306,22 @@
  {
   "repo": "sveltejs/svelte",
   "number": 18490,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 18334,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 17924,
   "gold": "bug",
   "choice": "bug",
   "p": 1,
@@ -348,16 +348,32 @@
   "number": 16627,
   "gold": "bug",
   "choice": "bug",
-  "p": 0.85,
-  "confidence": 0.8
+  "p": 0.82,
+  "confidence": 0.77
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 16115,
+  "number": 16805,
   "gold": "bug",
   "choice": "bug",
   "p": 1,
-  "confidence": 0.99
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 17904,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16577,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
  },
  {
   "repo": "sveltejs/svelte",
@@ -369,39 +385,23 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 16109,
+  "number": 16115,
   "gold": "bug",
   "choice": "bug",
   "p": 1,
-  "confidence": 1
+  "confidence": 0.99
  },
  {
   "repo": "sveltejs/svelte",
   "number": 16104,
   "gold": "bug",
   "choice": "bug",
-  "p": 0.98,
+  "p": 0.99,
   "confidence": 0.98
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 15757,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 0.88,
-  "confidence": 0.85
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 15870,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 15753,
+  "number": 16109,
   "gold": "bug",
   "choice": "bug",
   "p": 1,
@@ -417,23 +417,23 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 15256,
+  "number": 15757,
   "gold": "bug",
   "choice": "bug",
-  "p": 0.99,
-  "confidence": 0.98
+  "p": 0.9,
+  "confidence": 0.87
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 15488,
+  "number": 15870,
   "gold": "bug",
   "choice": "bug",
-  "p": 0.99,
-  "confidence": 0.98
+  "p": 1,
+  "confidence": 1
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 15229,
+  "number": 15753,
   "gold": "bug",
   "choice": "bug",
   "p": 1,
@@ -457,43 +457,27 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 16805,
+  "number": 15488,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15256,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15229,
   "gold": "bug",
   "choice": "bug",
   "p": 1,
   "confidence": 1
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 16577,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 15149,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "vercel/next.js",
-  "number": 74925,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 0.99
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 15210,
-  "gold": "bug",
-  "choice": "question",
-  "p": 0.55,
-  "confidence": 0.44
  },
  {
   "repo": "sveltejs/svelte",
@@ -505,7 +489,47 @@
  },
  {
   "repo": "sveltejs/svelte",
+  "number": 15210,
+  "gold": "bug",
+  "choice": "question",
+  "p": 0.62,
+  "confidence": 0.53
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15149,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
   "number": 15126,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15042,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.9,
+  "confidence": 0.88
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14956,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14961,
   "gold": "bug",
   "choice": "bug",
   "p": 1,
@@ -521,31 +545,7 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 14961,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 15042,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 0.91,
-  "confidence": 0.87
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 15096,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 0.96,
-  "confidence": 0.95
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 14956,
+  "number": 14902,
   "gold": "bug",
   "choice": "bug",
   "p": 1,
@@ -561,39 +561,31 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 14902,
+  "number": 15096,
   "gold": "bug",
   "choice": "bug",
-  "p": 1,
-  "confidence": 1
+  "p": 0.95,
+  "confidence": 0.94
  },
  {
   "repo": "sveltejs/svelte",
   "number": 14869,
   "gold": "bug",
   "choice": "bug",
-  "p": 0.53,
-  "confidence": 0.4
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 14814,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 14732,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 1
+  "p": 0.54,
+  "confidence": 0.43
  },
  {
   "repo": "sveltejs/svelte",
   "number": 14746,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14814,
   "gold": "bug",
   "choice": "bug",
   "p": 1,
@@ -609,11 +601,11 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 14684,
+  "number": 14732,
   "gold": "bug",
   "choice": "bug",
-  "p": 0.92,
-  "confidence": 0.9
+  "p": 1,
+  "confidence": 1
  },
  {
   "repo": "sveltejs/svelte",
@@ -633,19 +625,27 @@
  },
  {
   "repo": "denoland/deno",
+  "number": 36518,
+  "gold": "bug",
+  "choice": "feature",
+  "p": 0.69,
+  "confidence": 0.61
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14684,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.92,
+  "confidence": 0.9
+ },
+ {
+  "repo": "denoland/deno",
   "number": 36514,
   "gold": "bug",
   "choice": "bug",
   "p": 1,
   "confidence": 0.99
- },
- {
-  "repo": "denoland/deno",
-  "number": 36518,
-  "gold": "bug",
-  "choice": "feature",
-  "p": 0.73,
-  "confidence": 0.65
  },
  {
   "repo": "denoland/deno",
@@ -657,14 +657,6 @@
  },
  {
   "repo": "denoland/deno",
-  "number": 36503,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 0.98,
-  "confidence": 0.96
- },
- {
-  "repo": "denoland/deno",
   "number": 36498,
   "gold": "bug",
   "choice": "bug",
@@ -673,31 +665,15 @@
  },
  {
   "repo": "denoland/deno",
-  "number": 36462,
+  "number": 36503,
   "gold": "bug",
   "choice": "bug",
-  "p": 1,
-  "confidence": 1
+  "p": 0.97,
+  "confidence": 0.96
  },
  {
   "repo": "denoland/deno",
   "number": 36456,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "denoland/deno",
-  "number": 35295,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "denoland/deno",
-  "number": 35824,
   "gold": "bug",
   "choice": "bug",
   "p": 1,
@@ -713,6 +689,30 @@
  },
  {
   "repo": "denoland/deno",
+  "number": 36413,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.76,
+  "confidence": 0.69
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 35824,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 36462,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
   "number": 35339,
   "gold": "bug",
   "choice": "bug",
@@ -721,19 +721,11 @@
  },
  {
   "repo": "denoland/deno",
-  "number": 36413,
+  "number": 35295,
   "gold": "bug",
   "choice": "bug",
-  "p": 0.8,
-  "confidence": 0.75
- },
- {
-  "repo": "denoland/deno",
-  "number": 34975,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 0.98,
-  "confidence": 0.98
+  "p": 1,
+  "confidence": 1
  },
  {
   "repo": "denoland/deno",
@@ -745,19 +737,43 @@
  },
  {
   "repo": "denoland/deno",
+  "number": 34667,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 34975,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "denoland/deno",
   "number": 34837,
   "gold": "bug",
   "choice": "question",
-  "p": 0.63,
-  "confidence": 0.53
+  "p": 0.7,
+  "confidence": 0.62
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 34585,
+  "gold": "bug",
+  "choice": "question",
+  "p": 0.55,
+  "confidence": 0.43
  },
  {
   "repo": "denoland/deno",
   "number": 33272,
   "gold": "bug",
   "choice": "bug",
-  "p": 0.86,
-  "confidence": 0.82
+  "p": 0.87,
+  "confidence": 0.84
  },
  {
   "repo": "denoland/deno",
@@ -769,11 +785,19 @@
  },
  {
   "repo": "denoland/deno",
-  "number": 34585,
+  "number": 34522,
   "gold": "bug",
-  "choice": "question",
-  "p": 0.56,
-  "confidence": 0.44
+  "choice": "bug",
+  "p": 0.85,
+  "confidence": 0.81
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 32350,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
  },
  {
   "repo": "denoland/deno",
@@ -788,24 +812,8 @@
   "number": 32181,
   "gold": "bug",
   "choice": "bug",
-  "p": 0.92,
-  "confidence": 0.9
- },
- {
-  "repo": "denoland/deno",
-  "number": 32350,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "denoland/deno",
-  "number": 32156,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 1
+  "p": 0.89,
+  "confidence": 0.86
  },
  {
   "repo": "denoland/deno",
@@ -817,33 +825,777 @@
  },
  {
   "repo": "denoland/deno",
-  "number": 32099,
+  "number": 32063,
   "gold": "bug",
   "choice": "bug",
-  "p": 0.85,
-  "confidence": 0.8
+  "p": 0.98,
+  "confidence": 0.98
  },
  {
   "repo": "denoland/deno",
-  "number": 34522,
+  "number": 32057,
   "gold": "bug",
   "choice": "bug",
-  "p": 0.82,
-  "confidence": 0.78
+  "p": 0.94,
+  "confidence": 0.93
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 32156,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 32113,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 31924,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.9400000000000001,
+  "confidence": 0.92
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 32099,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.86,
+  "confidence": 0.81
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 31526,
+  "gold": "bug",
+  "choice": "feature",
+  "p": 0.96,
+  "confidence": 0.95
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 31354,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 31423,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 31242,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.85,
+  "confidence": 0.82
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 31529,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 31179,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 30991,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 31432,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 43446,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 43429,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 31122,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 43119,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 43061,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42882,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42793,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.73,
+  "confidence": 0.66
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42818,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42783,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 43117,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42777,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.78,
+  "confidence": 0.72
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42866,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42726,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42701,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42702,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42722,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42700,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42629,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42309,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42570,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42628,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42282,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42224,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42223,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42292,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42231,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42152,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42141,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42143,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42084,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42212,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42060,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 41952,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 42094,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 41858,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.88,
+  "confidence": 0.85
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 41777,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 41375,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 41849,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 41414,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 41382,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 41727,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 36350,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 36234,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 36349,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 36204,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.96,
+  "confidence": 0.95
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 36344,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 36073,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 36143,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 36194,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 36055,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 36042,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 36010,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35947,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.97,
+  "confidence": 0.97
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35956,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 36004,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35955,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35894,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35893,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35811,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 36005,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35810,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35741,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35892,
+  "gold": "bug",
+  "choice": "question",
+  "p": 0.59,
+  "confidence": 0.49
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35745,
+  "gold": "bug",
+  "choice": "feature",
+  "p": 0.57,
+  "confidence": 0.46
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35674,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35704,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35663,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35578,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35613,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 0.93,
+  "confidence": 0.92
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35872,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35592,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35576,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35566,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35556,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35540,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35564,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35539,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35546,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35518,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35502,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35503,
+  "gold": "bug",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 50605,
+  "gold": "bug",
+  "choice": "none",
+  "p": 0.55,
+  "confidence": 0.44
  },
  {
   "repo": "sveltejs/svelte",
   "number": 15883,
   "gold": "feature",
   "choice": "feature",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "denoland/deno",
-  "number": 34667,
-  "gold": "bug",
-  "choice": "bug",
   "p": 1,
   "confidence": 1
  },
@@ -856,36 +1608,12 @@
   "confidence": 0.98
  },
  {
-  "repo": "sveltejs/svelte",
-  "number": 13331,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 0.47,
-  "confidence": 0.34
- },
- {
-  "repo": "denoland/deno",
-  "number": 32113,
+  "repo": "supabase/supabase",
+  "number": 50590,
   "gold": "bug",
   "choice": "bug",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "denoland/deno",
-  "number": 32057,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 0.94,
-  "confidence": 0.93
- },
- {
-  "repo": "denoland/deno",
-  "number": 31924,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 0.95,
-  "confidence": 0.94
+  "p": 0.53,
+  "confidence": 0.42
  },
  {
   "repo": "sveltejs/svelte",
@@ -897,27 +1625,27 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 12925,
+  "number": 13331,
   "gold": "feature",
   "choice": "feature",
-  "p": 0.63,
-  "confidence": 0.54
+  "p": 0.5,
+  "confidence": 0.37
  },
  {
   "repo": "sveltejs/svelte",
   "number": 12668,
   "gold": "feature",
   "choice": "feature",
-  "p": 0.95,
-  "confidence": 0.93
+  "p": 0.96,
+  "confidence": 0.95
  },
  {
-  "repo": "denoland/deno",
-  "number": 31529,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 0.97,
-  "confidence": 0.96
+  "repo": "sveltejs/svelte",
+  "number": 12925,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.68,
+  "confidence": 0.59
  },
  {
   "repo": "sveltejs/svelte",
@@ -937,11 +1665,35 @@
  },
  {
   "repo": "sveltejs/svelte",
+  "number": 11702,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 12112,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.9,
+  "confidence": 0.88
+ },
+ {
+  "repo": "sveltejs/svelte",
   "number": 12151,
   "gold": "feature",
   "choice": "feature",
-  "p": 0.89,
-  "confidence": 0.86
+  "p": 0.87,
+  "confidence": 0.84
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 11358,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.96,
+  "confidence": 0.95
  },
  {
   "repo": "sveltejs/svelte",
@@ -953,22 +1705,6 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 11702,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 11358,
-  "gold": "feature",
-  "choice": "bug",
-  "p": 0.97,
-  "confidence": 0.95
- },
- {
-  "repo": "sveltejs/svelte",
   "number": 11536,
   "gold": "feature",
   "choice": "feature",
@@ -977,27 +1713,11 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 12112,
+  "number": 11055,
   "gold": "feature",
   "choice": "feature",
-  "p": 0.92,
-  "confidence": 0.9
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 10352,
-  "gold": "feature",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 0.99
- },
- {
-  "repo": "denoland/deno",
-  "number": 32063,
-  "gold": "bug",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 0.99
+  "p": 0.98,
+  "confidence": 0.98
  },
  {
   "repo": "sveltejs/svelte",
@@ -1012,8 +1732,8 @@
   "number": 11046,
   "gold": "feature",
   "choice": "bug",
-  "p": 0.63,
-  "confidence": 0.54
+  "p": 0.62,
+  "confidence": 0.52
  },
  {
   "repo": "sveltejs/svelte",
@@ -1025,11 +1745,11 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 11055,
+  "number": 10352,
   "gold": "feature",
-  "choice": "feature",
-  "p": 0.98,
-  "confidence": 0.97
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
  },
  {
   "repo": "sveltejs/svelte",
@@ -1041,23 +1761,7 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 10334,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 0.95,
-  "confidence": 0.94
- },
- {
-  "repo": "sveltejs/svelte",
   "number": 9582,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 9173,
   "gold": "feature",
   "choice": "feature",
   "p": 1,
@@ -1073,11 +1777,27 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 8941,
+  "number": 9173,
   "gold": "feature",
   "choice": "feature",
   "p": 1,
   "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 8636,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.96,
+  "confidence": 0.94
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 10334,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.96,
+  "confidence": 0.95
  },
  {
   "repo": "sveltejs/svelte",
@@ -1089,19 +1809,27 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 8636,
+  "number": 8941,
   "gold": "feature",
   "choice": "feature",
-  "p": 0.97,
-  "confidence": 0.95
+  "p": 1,
+  "confidence": 1
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 8112,
+  "number": 8235,
   "gold": "feature",
   "choice": "bug",
-  "p": 1,
-  "confidence": 1
+  "p": 0.72,
+  "confidence": 0.66
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 7680,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.8200000000000001,
+  "confidence": 0.77
  },
  {
   "repo": "sveltejs/svelte",
@@ -1113,39 +1841,15 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 8235,
+  "number": 8112,
   "gold": "feature",
   "choice": "bug",
-  "p": 0.66,
-  "confidence": 0.58
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 7630,
-  "gold": "feature",
-  "choice": "feature",
   "p": 1,
   "confidence": 1
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 7673,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 7680,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 0.78,
-  "confidence": 0.72
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 7596,
+  "number": 7568,
   "gold": "feature",
   "choice": "feature",
   "p": 1,
@@ -1161,7 +1865,7 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 7568,
+  "number": 7630,
   "gold": "feature",
   "choice": "feature",
   "p": 1,
@@ -1169,7 +1873,15 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 7517,
+  "number": 7596,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 7673,
   "gold": "feature",
   "choice": "feature",
   "p": 1,
@@ -1185,7 +1897,15 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 7437,
+  "number": 7456,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 7517,
   "gold": "feature",
   "choice": "feature",
   "p": 1,
@@ -1201,11 +1921,19 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 7456,
+  "number": 7437,
   "gold": "feature",
-  "choice": "bug",
+  "choice": "feature",
   "p": 1,
-  "confidence": 0.99
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 19201,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.96,
+  "confidence": 0.95
  },
  {
   "repo": "vitejs/vite",
@@ -1217,43 +1945,11 @@
  },
  {
   "repo": "vitejs/vite",
-  "number": 19035,
-  "gold": "feature",
-  "choice": "bug",
-  "p": 0.9,
-  "confidence": 0.87
- },
- {
-  "repo": "vitejs/vite",
-  "number": 18835,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "vitejs/vite",
-  "number": 18920,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 0.62,
-  "confidence": 0.52
- },
- {
-  "repo": "vitejs/vite",
   "number": 19373,
   "gold": "feature",
   "choice": "feature",
-  "p": 0.72,
-  "confidence": 0.64
- },
- {
-  "repo": "vitejs/vite",
-  "number": 18600,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 0.7,
-  "confidence": 0.62
+  "p": 0.74,
+  "confidence": 0.66
  },
  {
   "repo": "vitejs/vite",
@@ -1265,35 +1961,35 @@
  },
  {
   "repo": "vitejs/vite",
+  "number": 18835,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 19035,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.91,
+  "confidence": 0.89
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 18920,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.58,
+  "confidence": 0.48
+ },
+ {
+  "repo": "vitejs/vite",
   "number": 18264,
   "gold": "feature",
   "choice": "bug",
-  "p": 0.73,
-  "confidence": 0.66
- },
- {
-  "repo": "vitejs/vite",
-  "number": 17453,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "vitejs/vite",
-  "number": 17508,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 0.94,
-  "confidence": 0.93
- },
- {
-  "repo": "vitejs/vite",
-  "number": 17672,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
+  "p": 0.74,
+  "confidence": 0.67
  },
  {
   "repo": "vitejs/vite",
@@ -1305,7 +2001,55 @@
  },
  {
   "repo": "vitejs/vite",
+  "number": 18600,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.69,
+  "confidence": 0.61
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 17672,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 17508,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.95,
+  "confidence": 0.94
+ },
+ {
+  "repo": "vitejs/vite",
   "number": 16616,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 16438,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.68,
+  "confidence": 0.6
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 16118,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 17453,
   "gold": "feature",
   "choice": "feature",
   "p": 1,
@@ -1316,24 +2060,8 @@
   "number": 15726,
   "gold": "feature",
   "choice": "feature",
-  "p": 0.64,
-  "confidence": 0.54
- },
- {
-  "repo": "vitejs/vite",
-  "number": 16438,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 0.71,
-  "confidence": 0.64
- },
- {
-  "repo": "vitejs/vite",
-  "number": 16118,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 0.99,
-  "confidence": 0.99
+  "p": 0.68,
+  "confidence": 0.6
  },
  {
   "repo": "vitejs/vite",
@@ -1348,12 +2076,12 @@
   "number": 15686,
   "gold": "feature",
   "choice": "feature",
-  "p": 0.59,
-  "confidence": 0.49
+  "p": 0.62,
+  "confidence": 0.52
  },
  {
   "repo": "vitejs/vite",
-  "number": 15514,
+  "number": 14931,
   "gold": "feature",
   "choice": "feature",
   "p": 1,
@@ -1361,7 +2089,15 @@
  },
  {
   "repo": "vitejs/vite",
-  "number": 14931,
+  "number": 14689,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 15514,
   "gold": "feature",
   "choice": "feature",
   "p": 1,
@@ -1377,30 +2113,6 @@
  },
  {
   "repo": "vitejs/vite",
-  "number": 19201,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 0.96,
-  "confidence": 0.95
- },
- {
-  "repo": "vitejs/vite",
-  "number": 14170,
-  "gold": "feature",
-  "choice": "bug",
-  "p": 0.91,
-  "confidence": 0.89
- },
- {
-  "repo": "vitejs/vite",
-  "number": 14185,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "vitejs/vite",
   "number": 14527,
   "gold": "feature",
   "choice": "bug",
@@ -1409,7 +2121,15 @@
  },
  {
   "repo": "vitejs/vite",
-  "number": 14689,
+  "number": 13957,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 14185,
   "gold": "feature",
   "choice": "feature",
   "p": 1,
@@ -1425,14 +2145,6 @@
  },
  {
   "repo": "vitejs/vite",
-  "number": 13957,
-  "gold": "feature",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "vitejs/vite",
   "number": 13748,
   "gold": "feature",
   "choice": "feature",
@@ -1441,51 +2153,11 @@
  },
  {
   "repo": "vitejs/vite",
-  "number": 13848,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "vitejs/vite",
-  "number": 13235,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "vitejs/vite",
-  "number": 13459,
-  "gold": "feature",
-  "choice": "docs",
-  "p": 0.84,
-  "confidence": 0.79
- },
- {
-  "repo": "vitejs/vite",
   "number": 13950,
   "gold": "feature",
   "choice": "bug",
-  "p": 0.84,
-  "confidence": 0.8
- },
- {
-  "repo": "vitejs/vite",
-  "number": 13624,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 0.99,
-  "confidence": 0.98
- },
- {
-  "repo": "vitejs/vite",
-  "number": 13512,
-  "gold": "feature",
-  "choice": "bug",
-  "p": 0.78,
-  "confidence": 0.73
+  "p": 0.8,
+  "confidence": 0.75
  },
  {
   "repo": "vitejs/vite",
@@ -1494,6 +2166,22 @@
   "choice": "feature",
   "p": 0.98,
   "confidence": 0.98
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 14170,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.91,
+  "confidence": 0.89
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 13848,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
  },
  {
   "repo": "vitejs/vite",
@@ -1513,39 +2201,39 @@
  },
  {
   "repo": "vitejs/vite",
+  "number": 13624,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 13512,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.75,
+  "confidence": 0.68
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 13235,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 13459,
+  "gold": "feature",
+  "choice": "docs",
+  "p": 0.85,
+  "confidence": 0.81
+ },
+ {
+  "repo": "vitejs/vite",
   "number": 12958,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "oven-sh/bun",
-  "number": 42829,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "oven-sh/bun",
-  "number": 41991,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "oven-sh/bun",
-  "number": 41379,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "oven-sh/bun",
-  "number": 41872,
   "gold": "feature",
   "choice": "feature",
   "p": 1,
@@ -1561,15 +2249,23 @@
  },
  {
   "repo": "oven-sh/bun",
-  "number": 41167,
+  "number": 42829,
   "gold": "feature",
   "choice": "feature",
-  "p": 0.89,
-  "confidence": 0.86
+  "p": 1,
+  "confidence": 1
  },
  {
   "repo": "oven-sh/bun",
-  "number": 40777,
+  "number": 41356,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 41379,
   "gold": "feature",
   "choice": "feature",
   "p": 1,
@@ -1585,7 +2281,31 @@
  },
  {
   "repo": "oven-sh/bun",
-  "number": 41356,
+  "number": 41991,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 41872,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 41167,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.88,
+  "confidence": 0.85
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 40789,
   "gold": "feature",
   "choice": "feature",
   "p": 1,
@@ -1596,12 +2316,20 @@
   "number": 41113,
   "gold": "feature",
   "choice": "feature",
-  "p": 0.86,
-  "confidence": 0.82
+  "p": 0.9,
+  "confidence": 0.88
  },
  {
   "repo": "oven-sh/bun",
-  "number": 40789,
+  "number": 40777,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 40133,
   "gold": "feature",
   "choice": "feature",
   "p": 1,
@@ -1621,27 +2349,11 @@
   "gold": "feature",
   "choice": "bug",
   "p": 0.97,
-  "confidence": 0.96
+  "confidence": 0.97
  },
  {
   "repo": "oven-sh/bun",
-  "number": 37144,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "oven-sh/bun",
-  "number": 40133,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "oven-sh/bun",
-  "number": 36967,
+  "number": 40121,
   "gold": "feature",
   "choice": "feature",
   "p": 1,
@@ -1657,39 +2369,15 @@
  },
  {
   "repo": "oven-sh/bun",
-  "number": 38250,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "oven-sh/bun",
   "number": 37028,
   "gold": "feature",
   "choice": "feature",
-  "p": 0.88,
-  "confidence": 0.85
+  "p": 0.85,
+  "confidence": 0.81
  },
  {
   "repo": "oven-sh/bun",
-  "number": 40121,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "oven-sh/bun",
-  "number": 36428,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "oven-sh/bun",
-  "number": 34165,
+  "number": 37144,
   "gold": "feature",
   "choice": "feature",
   "p": 1,
@@ -1705,7 +2393,71 @@
  },
  {
   "repo": "oven-sh/bun",
+  "number": 36967,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 35281,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.93,
+  "confidence": 0.91
+ },
+ {
+  "repo": "oven-sh/bun",
   "number": 36058,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 36428,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 38250,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 33654,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 34165,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 33146,
+  "gold": "feature",
+  "choice": "docs",
+  "p": 0.49,
+  "confidence": 0.37
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 32607,
   "gold": "feature",
   "choice": "feature",
   "p": 1,
@@ -1721,27 +2473,11 @@
  },
  {
   "repo": "oven-sh/bun",
-  "number": 35281,
+  "number": 32166,
   "gold": "feature",
-  "choice": "feature",
-  "p": 0.91,
-  "confidence": 0.89
- },
- {
-  "repo": "oven-sh/bun",
-  "number": 33654,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "oven-sh/bun",
-  "number": 33146,
-  "gold": "feature",
-  "choice": "feature",
-  "p": 0.5,
-  "confidence": 0.37
+  "choice": "none",
+  "p": 0.9,
+  "confidence": 0.88
  },
  {
   "repo": "oven-sh/bun",
@@ -1752,42 +2488,722 @@
   "confidence": 1
  },
  {
-  "repo": "vercel/next.js",
-  "number": 73782,
-  "gold": "docs",
-  "choice": "docs",
+  "repo": "oven-sh/bun",
+  "number": 31900,
+  "gold": "feature",
+  "choice": "feature",
   "p": 1,
   "confidence": 1
  },
  {
-  "repo": "vercel/next.js",
-  "number": 74121,
-  "gold": "docs",
-  "choice": "docs",
+  "repo": "oven-sh/bun",
+  "number": 31953,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 31814,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 30968,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 31334,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 30951,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.82,
+  "confidence": 0.78
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 31720,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 30922,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35724,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35747,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 36070,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.8,
+  "confidence": 0.75
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35716,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35274,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35234,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.97,
+  "confidence": 0.97
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35673,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35411,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.61,
+  "confidence": 0.51
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35163,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35124,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 34371,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 34816,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35210,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35149,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.84,
+  "confidence": 0.79
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 34295,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 34302,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 34276,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 34823,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 34253,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 34252,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.88,
+  "confidence": 0.85
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 33396,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.37,
+  "confidence": 0.21
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 31919,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 31925,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.72,
+  "confidence": 0.65
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 31874,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.73,
+  "confidence": 0.66
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 32852,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 31850,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 31914,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 31847,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 31418,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 31672,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.74,
+  "confidence": 0.67
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 31719,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 31417,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 31490,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 31314,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.58,
+  "confidence": 0.47
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 31652,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 43812,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 30933,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.96,
+  "confidence": 0.94
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 30947,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 43267,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 43738,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.88,
+  "confidence": 0.85
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 45196,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.51,
+  "confidence": 0.39
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 41578,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 41843,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.81,
+  "confidence": 0.76
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 39077,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.78,
+  "confidence": 0.72
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 30403,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.56,
+  "confidence": 0.45
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 28934,
+  "gold": "feature",
+  "choice": "question",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 28743,
+  "gold": "feature",
+  "choice": "feature",
   "p": 0.98,
   "confidence": 0.98
  },
  {
-  "repo": "vercel/next.js",
-  "number": 73809,
-  "gold": "docs",
-  "choice": "docs",
+  "repo": "supabase/supabase",
+  "number": 28004,
+  "gold": "feature",
+  "choice": "feature",
   "p": 1,
   "confidence": 1
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 22696,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.69,
+  "confidence": 0.61
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 27069,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.63,
+  "confidence": 0.53
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 26569,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 27090,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 29574,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.67,
+  "confidence": 0.59
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 22335,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.75,
+  "confidence": 0.68
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 13579,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 13602,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 13617,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.84,
+  "confidence": 0.8
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 27950,
+  "gold": "feature",
+  "choice": "none",
+  "p": 0.65,
+  "confidence": 0.56
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 13358,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 13467,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 13336,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 13192,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 13236,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 13094,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 13138,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 13077,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.66,
+  "confidence": 0.57
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 13156,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 13003,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 12975,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 12804,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.62,
+  "confidence": 0.53
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 12895,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 13189,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.96,
+  "confidence": 0.94
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 12812,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 12962,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 12715,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 12722,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 12720,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 12671,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 12690,
+  "gold": "feature",
+  "choice": "bug",
+  "p": 0.81,
+  "confidence": 0.76
  },
  {
   "repo": "vercel/next.js",
   "number": 82379,
   "gold": "docs",
   "choice": "bug",
-  "p": 0.72,
-  "confidence": 0.64
+  "p": 0.67,
+  "confidence": 0.59
  },
  {
-  "repo": "vercel/next.js",
-  "number": 74700,
-  "gold": "docs",
-  "choice": "docs",
+  "repo": "pydantic/pydantic",
+  "number": 12618,
+  "gold": "feature",
+  "choice": "feature",
+  "p": 0.79,
+  "confidence": 0.72
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 12708,
+  "gold": "feature",
+  "choice": "feature",
   "p": 1,
   "confidence": 1
  },
@@ -1801,15 +3217,7 @@
  },
  {
   "repo": "vercel/next.js",
-  "number": 73205,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 0.99,
-  "confidence": 0.98
- },
- {
-  "repo": "vercel/next.js",
-  "number": 73267,
+  "number": 74700,
   "gold": "docs",
   "choice": "docs",
   "p": 1,
@@ -1817,7 +3225,23 @@
  },
  {
   "repo": "vercel/next.js",
-  "number": 73141,
+  "number": 73809,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 73782,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 73267,
   "gold": "docs",
   "choice": "docs",
   "p": 1,
@@ -1833,11 +3257,43 @@
  },
  {
   "repo": "vercel/next.js",
+  "number": 74121,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 72566,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 72615,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.81,
+  "confidence": 0.76
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 73205,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "vercel/next.js",
   "number": 73002,
   "gold": "docs",
   "choice": "docs",
   "p": 0.9400000000000001,
-  "confidence": 0.91
+  "confidence": 0.92
  },
  {
   "repo": "vercel/next.js",
@@ -1857,23 +3313,7 @@
  },
  {
   "repo": "vercel/next.js",
-  "number": 72566,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 0.99,
-  "confidence": 0.99
- },
- {
-  "repo": "vercel/next.js",
-  "number": 72378,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 0.99,
-  "confidence": 0.99
- },
- {
-  "repo": "vercel/next.js",
-  "number": 72325,
+  "number": 73141,
   "gold": "docs",
   "choice": "docs",
   "p": 1,
@@ -1881,27 +3321,19 @@
  },
  {
   "repo": "vercel/next.js",
-  "number": 72615,
+  "number": 72507,
   "gold": "docs",
   "choice": "docs",
-  "p": 0.77,
-  "confidence": 0.71
+  "p": 0.97,
+  "confidence": 0.96
  },
  {
   "repo": "vercel/next.js",
-  "number": 72507,
+  "number": 72499,
   "gold": "docs",
   "choice": "docs",
   "p": 0.98,
   "confidence": 0.97
- },
- {
-  "repo": "vercel/next.js",
-  "number": 72303,
-  "gold": "docs",
-  "choice": "bug",
-  "p": 0.65,
-  "confidence": 0.56
  },
  {
   "repo": "vercel/next.js",
@@ -1912,20 +3344,36 @@
   "confidence": 1
  },
  {
-  "repo": "oven-sh/bun",
-  "number": 32607,
-  "gold": "feature",
-  "choice": "feature",
+  "repo": "vercel/next.js",
+  "number": 72244,
+  "gold": "docs",
+  "choice": "docs",
   "p": 1,
   "confidence": 1
  },
  {
   "repo": "vercel/next.js",
-  "number": 72499,
+  "number": 72378,
   "gold": "docs",
   "choice": "docs",
-  "p": 0.97,
-  "confidence": 0.97
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 72303,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.64,
+  "confidence": 0.55
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 72325,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
  },
  {
   "repo": "vercel/next.js",
@@ -1945,19 +3393,19 @@
  },
  {
   "repo": "vercel/next.js",
-  "number": 72152,
+  "number": 71905,
   "gold": "docs",
   "choice": "docs",
-  "p": 0.99,
-  "confidence": 0.98
+  "p": 0.59,
+  "confidence": 0.48
  },
  {
   "repo": "vercel/next.js",
-  "number": 72244,
+  "number": 72152,
   "gold": "docs",
   "choice": "docs",
-  "p": 1,
-  "confidence": 1
+  "p": 0.98,
+  "confidence": 0.98
  },
  {
   "repo": "vercel/next.js",
@@ -1965,46 +3413,6 @@
   "gold": "docs",
   "choice": "docs",
   "p": 0.99,
-  "confidence": 0.98
- },
- {
-  "repo": "vercel/next.js",
-  "number": 71905,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 0.58,
-  "confidence": 0.47
- },
- {
-  "repo": "vercel/next.js",
-  "number": 72025,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 0.54,
-  "confidence": 0.41
- },
- {
-  "repo": "vercel/next.js",
-  "number": 71750,
-  "gold": "docs",
-  "choice": "bug",
-  "p": 0.99,
-  "confidence": 0.99
- },
- {
-  "repo": "vercel/next.js",
-  "number": 71676,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 18129,
-  "gold": "docs",
-  "choice": "bug",
-  "p": 0.98,
   "confidence": 0.98
  },
  {
@@ -2025,11 +3433,43 @@
  },
  {
   "repo": "vercel/next.js",
+  "number": 71676,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 72025,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.51,
+  "confidence": 0.39
+ },
+ {
+  "repo": "vercel/next.js",
+  "number": 71750,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "vercel/next.js",
   "number": 71675,
   "gold": "docs",
   "choice": "docs",
   "p": 1,
   "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 18022,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.66,
+  "confidence": 0.57
  },
  {
   "repo": "vercel/next.js",
@@ -2041,19 +3481,11 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 18022,
+  "number": 18129,
   "gold": "docs",
-  "choice": "docs",
-  "p": 0.65,
-  "confidence": 0.56
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 17958,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 1,
-  "confidence": 1
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.98
  },
  {
   "repo": "sveltejs/svelte",
@@ -2065,18 +3497,10 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 17624,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 0.57,
-  "confidence": 0.47
- },
- {
-  "repo": "sveltejs/svelte",
   "number": 17430,
   "gold": "docs",
   "choice": "docs",
-  "p": 0.99,
+  "p": 1,
   "confidence": 0.99
  },
  {
@@ -2084,16 +3508,32 @@
   "number": 17383,
   "gold": "docs",
   "choice": "bug",
-  "p": 0.98,
-  "confidence": 0.97
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 17624,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.6,
+  "confidence": 0.51
  },
  {
   "repo": "sveltejs/svelte",
   "number": 16870,
   "gold": "docs",
   "choice": "bug",
-  "p": 0.93,
-  "confidence": 0.92
+  "p": 0.92,
+  "confidence": 0.9
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 17958,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
  },
  {
   "repo": "sveltejs/svelte",
@@ -2113,19 +3553,11 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 16474,
+  "number": 16471,
   "gold": "docs",
   "choice": "docs",
-  "p": 0.94,
-  "confidence": 0.92
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 16528,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 0.97,
-  "confidence": 0.96
+  "p": 1,
+  "confidence": 1
  },
  {
   "repo": "sveltejs/svelte",
@@ -2137,27 +3569,19 @@
  },
  {
   "repo": "sveltejs/svelte",
+  "number": 16528,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "sveltejs/svelte",
   "number": 16739,
   "gold": "docs",
   "choice": "feature",
-  "p": 0.85,
-  "confidence": 0.8
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 16471,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 16123,
-  "gold": "docs",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 0.99
+  "p": 0.81,
+  "confidence": 0.77
  },
  {
   "repo": "sveltejs/svelte",
@@ -2169,39 +3593,31 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 16182,
+  "number": 16474,
   "gold": "docs",
   "choice": "docs",
-  "p": 0.96,
-  "confidence": 0.95
+  "p": 0.95,
+  "confidence": 0.93
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 15992,
+  "number": 16123,
   "gold": "docs",
-  "choice": "docs",
+  "choice": "bug",
   "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 15509,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 15677,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 0.51,
-  "confidence": 0.38
+  "confidence": 0.99
  },
  {
   "repo": "sveltejs/svelte",
   "number": 15691,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15992,
   "gold": "docs",
   "choice": "docs",
   "p": 1,
@@ -2217,14 +3633,6 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 15289,
-  "gold": "docs",
-  "choice": "bug",
-  "p": 0.99,
-  "confidence": 0.99
- },
- {
-  "repo": "sveltejs/svelte",
   "number": 15370,
   "gold": "docs",
   "choice": "bug",
@@ -2233,17 +3641,9 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 15151,
+  "number": 15509,
   "gold": "docs",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 15175,
-  "gold": "docs",
-  "choice": "bug",
+  "choice": "docs",
   "p": 1,
   "confidence": 1
  },
@@ -2257,6 +3657,38 @@
  },
  {
   "repo": "sveltejs/svelte",
+  "number": 15175,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 16182,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15151,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 15289,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "sveltejs/svelte",
   "number": 14919,
   "gold": "docs",
   "choice": "docs",
@@ -2265,19 +3697,27 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 14803,
+  "number": 15677,
   "gold": "docs",
-  "choice": "question",
-  "p": 0.79,
-  "confidence": 0.73
+  "choice": "feature",
+  "p": 0.54,
+  "confidence": 0.42
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 14760,
+  "number": 14803,
   "gold": "docs",
-  "choice": "bug",
-  "p": 0.78,
-  "confidence": 0.73
+  "choice": "question",
+  "p": 0.81,
+  "confidence": 0.76
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14900,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 0.99
  },
  {
   "repo": "sveltejs/svelte",
@@ -2289,31 +3729,7 @@
  },
  {
   "repo": "sveltejs/svelte",
-  "number": 14727,
-  "gold": "docs",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "sveltejs/svelte",
   "number": 14716,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 14900,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 0.99,
-  "confidence": 0.99
- },
- {
-  "repo": "sveltejs/svelte",
-  "number": 14420,
   "gold": "docs",
   "choice": "docs",
   "p": 1,
@@ -2328,20 +3744,28 @@
   "confidence": 1
  },
  {
-  "repo": "vitejs/vite",
-  "number": 23220,
+  "repo": "sveltejs/svelte",
+  "number": 14760,
   "gold": "docs",
   "choice": "bug",
-  "p": 0.97,
-  "confidence": 0.97
+  "p": 0.77,
+  "confidence": 0.71
  },
  {
-  "repo": "vitejs/vite",
-  "number": 23122,
+  "repo": "sveltejs/svelte",
+  "number": 14187,
   "gold": "docs",
-  "choice": "bug",
-  "p": 0.98,
-  "confidence": 0.98
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "sveltejs/svelte",
+  "number": 14420,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
  },
  {
   "repo": "sveltejs/svelte",
@@ -2352,14 +3776,6 @@
   "confidence": 1
  },
  {
-  "repo": "vitejs/vite",
-  "number": 23150,
-  "gold": "docs",
-  "choice": "feature",
-  "p": 0.46,
-  "confidence": 0.33
- },
- {
   "repo": "sveltejs/svelte",
   "number": 14261,
   "gold": "docs",
@@ -2368,16 +3784,72 @@
   "confidence": 0.99
  },
  {
+  "repo": "sveltejs/svelte",
+  "number": 14727,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
   "repo": "vitejs/vite",
   "number": 23504,
   "gold": "docs",
   "choice": "bug",
-  "p": 0.63,
-  "confidence": 0.54
+  "p": 0.64,
+  "confidence": 0.56
  },
  {
-  "repo": "sveltejs/svelte",
-  "number": 14187,
+  "repo": "vitejs/vite",
+  "number": 23122,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 22975,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.43,
+  "confidence": 0.29
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 22526,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.9,
+  "confidence": 0.87
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 23220,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 22489,
+  "gold": "docs",
+  "choice": "feature",
+  "p": 0.86,
+  "confidence": 0.82
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 23150,
+  "gold": "docs",
+  "choice": "feature",
+  "p": 0.58,
+  "confidence": 0.49
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 22456,
   "gold": "docs",
   "choice": "docs",
   "p": 1,
@@ -2393,67 +3865,11 @@
  },
  {
   "repo": "vitejs/vite",
-  "number": 22489,
-  "gold": "docs",
-  "choice": "feature",
-  "p": 0.9,
-  "confidence": 0.87
- },
- {
-  "repo": "vitejs/vite",
-  "number": 22456,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "vitejs/vite",
   "number": 22772,
   "gold": "docs",
   "choice": "docs",
   "p": 0.96,
-  "confidence": 0.95
- },
- {
-  "repo": "vitejs/vite",
-  "number": 22049,
-  "gold": "docs",
-  "choice": "bug",
-  "p": 0.95,
-  "confidence": 0.93
- },
- {
-  "repo": "vitejs/vite",
-  "number": 22526,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 0.9,
-  "confidence": 0.87
- },
- {
-  "repo": "vitejs/vite",
-  "number": 21915,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "vitejs/vite",
-  "number": 22190,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "vitejs/vite",
-  "number": 21805,
-  "gold": "docs",
-  "choice": "none",
-  "p": 0.94,
-  "confidence": 0.93
+  "confidence": 0.94
  },
  {
   "repo": "vitejs/vite",
@@ -2465,23 +3881,15 @@
  },
  {
   "repo": "vitejs/vite",
-  "number": 21913,
-  "gold": "docs",
-  "choice": "none",
-  "p": 0.9,
-  "confidence": 0.88
- },
- {
-  "repo": "vitejs/vite",
-  "number": 21901,
+  "number": 22049,
   "gold": "docs",
   "choice": "bug",
-  "p": 0.78,
-  "confidence": 0.73
+  "p": 0.94,
+  "confidence": 0.92
  },
  {
   "repo": "vitejs/vite",
-  "number": 21806,
+  "number": 22190,
   "gold": "docs",
   "choice": "docs",
   "p": 1,
@@ -2489,27 +3897,27 @@
  },
  {
   "repo": "vitejs/vite",
-  "number": 21798,
+  "number": 21913,
   "gold": "docs",
-  "choice": "feature",
-  "p": 0.34,
-  "confidence": 0.18
+  "choice": "none",
+  "p": 0.92,
+  "confidence": 0.91
  },
  {
   "repo": "vitejs/vite",
-  "number": 22975,
+  "number": 21901,
   "gold": "docs",
   "choice": "bug",
-  "p": 0.41,
-  "confidence": 0.27
+  "p": 0.8,
+  "confidence": 0.73
  },
  {
   "repo": "vitejs/vite",
-  "number": 21602,
+  "number": 21805,
   "gold": "docs",
-  "choice": "docs",
-  "p": 0.74,
-  "confidence": 0.68
+  "choice": "none",
+  "p": 0.93,
+  "confidence": 0.92
  },
  {
   "repo": "vitejs/vite",
@@ -2521,7 +3929,7 @@
  },
  {
   "repo": "vitejs/vite",
-  "number": 21526,
+  "number": 21915,
   "gold": "docs",
   "choice": "docs",
   "p": 1,
@@ -2529,15 +3937,7 @@
  },
  {
   "repo": "vitejs/vite",
-  "number": 21678,
-  "gold": "docs",
-  "choice": "bug",
-  "p": 0.62,
-  "confidence": 0.52
- },
- {
-  "repo": "vitejs/vite",
-  "number": 21514,
+  "number": 21806,
   "gold": "docs",
   "choice": "docs",
   "p": 1,
@@ -2553,15 +3953,55 @@
  },
  {
   "repo": "vitejs/vite",
+  "number": 21644,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21602,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.74,
+  "confidence": 0.68
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21678,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.63,
+  "confidence": 0.53
+ },
+ {
+  "repo": "vitejs/vite",
   "number": 21581,
   "gold": "docs",
   "choice": "bug",
   "p": 0.88,
-  "confidence": 0.85
+  "confidence": 0.86
  },
  {
   "repo": "vitejs/vite",
-  "number": 21644,
+  "number": 21526,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21798,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.33,
+  "confidence": 0.17
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21514,
   "gold": "docs",
   "choice": "docs",
   "p": 1,
@@ -2577,39 +4017,23 @@
  },
  {
   "repo": "vitejs/vite",
-  "number": 21430,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 0.47,
-  "confidence": 0.33
- },
- {
-  "repo": "vitejs/vite",
-  "number": 21438,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "vitejs/vite",
-  "number": 21295,
+  "number": 21384,
   "gold": "docs",
   "choice": "bug",
-  "p": 0.93,
-  "confidence": 0.9
+  "p": 0.53,
+  "confidence": 0.4
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21386,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.99,
+  "confidence": 0.99
  },
  {
   "repo": "vitejs/vite",
   "number": 21414,
-  "gold": "docs",
-  "choice": "docs",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "vitejs/vite",
-  "number": 21385,
   "gold": "docs",
   "choice": "docs",
   "p": 1,
@@ -2625,19 +4049,779 @@
  },
  {
   "repo": "vitejs/vite",
-  "number": 21384,
+  "number": 21385,
   "gold": "docs",
-  "choice": "bug",
-  "p": 0.56,
-  "confidence": 0.45
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
  },
  {
   "repo": "vitejs/vite",
-  "number": 21386,
+  "number": 21438,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21430,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.51,
+  "confidence": 0.38
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21229,
+  "gold": "docs",
+  "choice": "feature",
+  "p": 0.55,
+  "confidence": 0.43
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21295,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.93,
+  "confidence": 0.91
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 34309,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21144,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21237,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "vitejs/vite",
+  "number": 21112,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.79,
+  "confidence": 0.73
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 29950,
+  "gold": "docs",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 26697,
+  "gold": "docs",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 24941,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 25413,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.88,
+  "confidence": 0.85
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 30908,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.87,
+  "confidence": 0.84
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 22885,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.53,
+  "confidence": 0.42
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 26016,
+  "gold": "docs",
+  "choice": "feature",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 30004,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.79,
+  "confidence": 0.72
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 22728,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 20976,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 21652,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 18574,
+  "gold": "docs",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 15089,
+  "gold": "docs",
+  "choice": "feature",
+  "p": 0.76,
+  "confidence": 0.7
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 18685,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 21943,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 16709,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 13214,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.46,
+  "confidence": 0.31
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 14405,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.84,
+  "confidence": 0.8
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 11391,
+  "gold": "docs",
+  "choice": "feature",
+  "p": 0.82,
+  "confidence": 0.77
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 11004,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.96,
+  "confidence": 0.95
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 10919,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.71,
+  "confidence": 0.65
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 10840,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 32588,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 10881,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 31233,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 39792,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 34370,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 31026,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 39891,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 30614,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.87,
+  "confidence": 0.83
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 31015,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 32666,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 30374,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 27950,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 29517,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 29333,
+  "gold": "docs",
+  "choice": "feature",
+  "p": 0.61,
+  "confidence": 0.51
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 29347,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 27066,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 27413,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 26727,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.93,
+  "confidence": 0.91
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 26563,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.51,
+  "confidence": 0.38
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 26044,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 26690,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.78,
+  "confidence": 0.72
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 29544,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 26032,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.71,
+  "confidence": 0.64
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 25491,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 25058,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.95,
+  "confidence": 0.93
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 25175,
   "gold": "docs",
   "choice": "docs",
   "p": 1,
   "confidence": 0.99
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 25756,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.96,
+  "confidence": 0.95
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 25747,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.9400000000000001,
+  "confidence": 0.92
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 24890,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 25479,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 25945,
+  "gold": "docs",
+  "choice": "question",
+  "p": 0.79,
+  "confidence": 0.74
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 24547,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.9,
+  "confidence": 0.87
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 24815,
+  "gold": "docs",
+  "choice": "none",
+  "p": 0.76,
+  "confidence": 0.69
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 24424,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.86,
+  "confidence": 0.83
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 24294,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 24430,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.7,
+  "confidence": 0.61
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 24603,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 23899,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 23662,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.96,
+  "confidence": 0.95
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35816,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35648,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35467,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35644,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35283,
+  "gold": "docs",
+  "choice": "question",
+  "p": 0.59,
+  "confidence": 0.48
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35646,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35152,
+  "gold": "docs",
+  "choice": "bug",
+  "p": 0.9,
+  "confidence": 0.88
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35240,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 34938,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.7,
+  "confidence": 0.62
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35093,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 33916,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 35086,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 33817,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.91,
+  "confidence": 0.88
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 33233,
+  "gold": "docs",
+  "choice": "question",
+  "p": 0.73,
+  "confidence": 0.66
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 33130,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 32574,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.62,
+  "confidence": 0.52
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 32636,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 33000,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 32530,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 33320,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 32731,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 32322,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 0.52,
+  "confidence": 0.4
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 32155,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 35837,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "storybookjs/storybook",
+  "number": 32085,
+  "gold": "docs",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 32176,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.49,
+  "confidence": 0.36
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 32363,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.97,
+  "confidence": 0.95
  },
  {
   "repo": "denoland/deno",
@@ -2649,83 +4833,35 @@
  },
  {
   "repo": "denoland/deno",
-  "number": 35837,
-  "gold": "question",
-  "choice": "question",
-  "p": 0.99,
-  "confidence": 0.99
- },
- {
-  "repo": "denoland/deno",
   "number": 31078,
   "gold": "question",
   "choice": "question",
-  "p": 0.97,
-  "confidence": 0.95
- },
- {
-  "repo": "denoland/deno",
-  "number": 31904,
-  "gold": "question",
-  "choice": "bug",
-  "p": 0.75,
-  "confidence": 0.68
+  "p": 0.96,
+  "confidence": 0.96
  },
  {
   "repo": "denoland/deno",
   "number": 30985,
   "gold": "question",
   "choice": "feature",
-  "p": 0.8,
-  "confidence": 0.75
+  "p": 0.81,
+  "confidence": 0.76
  },
  {
   "repo": "denoland/deno",
-  "number": 32176,
+  "number": 31904,
   "gold": "question",
-  "choice": "feature",
-  "p": 0.48,
-  "confidence": 0.35
+  "choice": "bug",
+  "p": 0.72,
+  "confidence": 0.65
  },
  {
   "repo": "denoland/deno",
   "number": 31717,
   "gold": "question",
   "choice": "feature",
-  "p": 0.66,
-  "confidence": 0.57
- },
- {
-  "repo": "denoland/deno",
-  "number": 32363,
-  "gold": "question",
-  "choice": "bug",
-  "p": 0.96,
-  "confidence": 0.94
- },
- {
-  "repo": "denoland/deno",
-  "number": 30392,
-  "gold": "question",
-  "choice": "question",
-  "p": 0.99,
-  "confidence": 0.99
- },
- {
-  "repo": "denoland/deno",
-  "number": 30822,
-  "gold": "question",
-  "choice": "question",
-  "p": 0.78,
-  "confidence": 0.72
- },
- {
-  "repo": "denoland/deno",
-  "number": 30357,
-  "gold": "question",
-  "choice": "question",
-  "p": 0.77,
-  "confidence": 0.71
+  "p": 0.7,
+  "confidence": 0.63
  },
  {
   "repo": "denoland/deno",
@@ -2737,27 +4873,27 @@
  },
  {
   "repo": "denoland/deno",
-  "number": 30133,
+  "number": 30392,
   "gold": "question",
-  "choice": "bug",
-  "p": 0.86,
-  "confidence": 0.82
+  "choice": "question",
+  "p": 1,
+  "confidence": 0.99
  },
  {
   "repo": "denoland/deno",
-  "number": 30353,
+  "number": 30357,
   "gold": "question",
-  "choice": "bug",
-  "p": 0.64,
-  "confidence": 0.55
+  "choice": "question",
+  "p": 0.78,
+  "confidence": 0.72
  },
  {
   "repo": "denoland/deno",
-  "number": 30331,
+  "number": 30822,
   "gold": "question",
-  "choice": "feature",
-  "p": 0.91,
-  "confidence": 0.88
+  "choice": "question",
+  "p": 0.8,
+  "confidence": 0.75
  },
  {
   "repo": "denoland/deno",
@@ -2765,7 +4901,31 @@
   "gold": "question",
   "choice": "bug",
   "p": 0.95,
-  "confidence": 0.94
+  "confidence": 0.95
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 30331,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.89,
+  "confidence": 0.86
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 30353,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.68,
+  "confidence": 0.59
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 30133,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.81,
+  "confidence": 0.76
  },
  {
   "repo": "denoland/deno",
@@ -2773,15 +4933,7 @@
   "gold": "question",
   "choice": "question",
   "p": 0.91,
-  "confidence": 0.88
- },
- {
-  "repo": "denoland/deno",
-  "number": 29660,
-  "gold": "question",
-  "choice": "bug",
-  "p": 1,
-  "confidence": 1
+  "confidence": 0.89
  },
  {
   "repo": "denoland/deno",
@@ -2793,30 +4945,6 @@
  },
  {
   "repo": "denoland/deno",
-  "number": 29655,
-  "gold": "question",
-  "choice": "bug",
-  "p": 0.97,
-  "confidence": 0.96
- },
- {
-  "repo": "denoland/deno",
-  "number": 29414,
-  "gold": "question",
-  "choice": "bug",
-  "p": 0.5700000000000001,
-  "confidence": 0.45
- },
- {
-  "repo": "denoland/deno",
-  "number": 29458,
-  "gold": "question",
-  "choice": "bug",
-  "p": 0.89,
-  "confidence": 0.86
- },
- {
-  "repo": "denoland/deno",
   "number": 29535,
   "gold": "question",
   "choice": "bug",
@@ -2825,11 +4953,27 @@
  },
  {
   "repo": "denoland/deno",
-  "number": 28947,
+  "number": 29655,
   "gold": "question",
-  "choice": "question",
-  "p": 0.93,
-  "confidence": 0.91
+  "choice": "bug",
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 29458,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.87,
+  "confidence": 0.84
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 29660,
+  "gold": "question",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
  },
  {
   "repo": "denoland/deno",
@@ -2841,19 +4985,19 @@
  },
  {
   "repo": "denoland/deno",
-  "number": 29174,
-  "gold": "question",
-  "choice": "bug",
-  "p": 0.5,
-  "confidence": 0.37
- },
- {
-  "repo": "denoland/deno",
   "number": 29252,
   "gold": "question",
   "choice": "question",
   "p": 0.97,
   "confidence": 0.97
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 29414,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.52,
+  "confidence": 0.39
  },
  {
   "repo": "denoland/deno",
@@ -2865,19 +5009,35 @@
  },
  {
   "repo": "denoland/deno",
-  "number": 28940,
+  "number": 28947,
   "gold": "question",
-  "choice": "bug",
-  "p": 0.87,
-  "confidence": 0.84
+  "choice": "question",
+  "p": 0.92,
+  "confidence": 0.88
  },
  {
   "repo": "denoland/deno",
-  "number": 28708,
+  "number": 28892,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.82,
+  "confidence": 0.78
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 29174,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.52,
+  "confidence": 0.39
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 28553,
   "gold": "question",
   "choice": "feature",
-  "p": 0.85,
-  "confidence": 0.82
+  "p": 1,
+  "confidence": 1
  },
  {
   "repo": "denoland/deno",
@@ -2897,19 +5057,35 @@
  },
  {
   "repo": "denoland/deno",
-  "number": 28553,
+  "number": 28940,
   "gold": "question",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
+  "choice": "bug",
+  "p": 0.87,
+  "confidence": 0.84
  },
  {
   "repo": "denoland/deno",
-  "number": 28892,
+  "number": 28430,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.87,
+  "confidence": 0.83
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 28393,
   "gold": "question",
   "choice": "question",
-  "p": 0.85,
+  "p": 0.86,
   "confidence": 0.82
+ },
+ {
+  "repo": "denoland/deno",
+  "number": 28419,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.96,
+  "confidence": 0.94
  },
  {
   "repo": "denoland/deno",
@@ -2921,51 +5097,27 @@
  },
  {
   "repo": "denoland/deno",
-  "number": 28393,
+  "number": 28708,
   "gold": "question",
-  "choice": "question",
+  "choice": "feature",
   "p": 0.84,
-  "confidence": 0.8
- },
- {
-  "repo": "denoland/deno",
-  "number": 28419,
-  "gold": "question",
-  "choice": "bug",
-  "p": 0.95,
-  "confidence": 0.94
- },
- {
-  "repo": "denoland/deno",
-  "number": 28430,
-  "gold": "question",
-  "choice": "bug",
-  "p": 0.81,
-  "confidence": 0.76
+  "confidence": 0.79
  },
  {
   "repo": "denoland/deno",
   "number": 28315,
   "gold": "question",
   "choice": "bug",
-  "p": 0.9,
-  "confidence": 0.87
+  "p": 0.88,
+  "confidence": 0.85
  },
  {
-  "repo": "remix-run/react-router",
-  "number": 14022,
+  "repo": "oven-sh/bun",
+  "number": 16485,
   "gold": "question",
   "choice": "bug",
-  "p": 0.56,
-  "confidence": 0.45
- },
- {
-  "repo": "remix-run/react-router",
-  "number": 10145,
-  "gold": "question",
-  "choice": "question",
-  "p": 0.99,
-  "confidence": 0.99
+  "p": 0.96,
+  "confidence": 0.95
  },
  {
   "repo": "oven-sh/bun",
@@ -2973,15 +5125,7 @@
   "gold": "question",
   "choice": "bug",
   "p": 0.98,
-  "confidence": 0.97
- },
- {
-  "repo": "oven-sh/bun",
-  "number": 16485,
-  "gold": "question",
-  "choice": "bug",
-  "p": 0.98,
-  "confidence": 0.97
+  "confidence": 0.98
  },
  {
   "repo": "oven-sh/bun",
@@ -2989,13 +5133,37 @@
   "gold": "question",
   "choice": "question",
   "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 16773,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 14810,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.91,
+  "confidence": 0.89
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 1091,
+  "gold": "question",
+  "choice": "feature",
+  "p": 1,
   "confidence": 0.99
  },
  {
   "repo": "oven-sh/bun",
-  "number": 7318,
+  "number": 6532,
   "gold": "question",
-  "choice": "question",
+  "choice": "feature",
   "p": 1,
   "confidence": 1
  },
@@ -3009,51 +5177,19 @@
  },
  {
   "repo": "oven-sh/bun",
-  "number": 16773,
+  "number": 7318,
   "gold": "question",
-  "choice": "bug",
-  "p": 0.98,
-  "confidence": 0.98
- },
- {
-  "repo": "oven-sh/bun",
-  "number": 6532,
-  "gold": "question",
-  "choice": "feature",
+  "choice": "question",
   "p": 1,
   "confidence": 1
- },
- {
-  "repo": "oven-sh/bun",
-  "number": 14810,
-  "gold": "question",
-  "choice": "bug",
-  "p": 0.88,
-  "confidence": 0.86
  },
  {
   "repo": "oven-sh/bun",
   "number": 1099,
   "gold": "question",
   "choice": "question",
-  "p": 0.61,
-  "confidence": 0.51
- },
- {
-  "repo": "oven-sh/bun",
-  "number": 1091,
-  "gold": "question",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 0.99
- },
- {
-  "repo": "oven-sh/bun",
-  "number": 983,
-  "gold": "question",
-  "choice": "question",
-  "p": 0.85,
-  "confidence": 0.8
+  "p": 0.58,
+  "confidence": 0.47
  },
  {
   "repo": "oven-sh/bun",
@@ -3065,19 +5201,11 @@
  },
  {
   "repo": "oven-sh/bun",
-  "number": 762,
-  "gold": "question",
-  "choice": "bug",
-  "p": 0.77,
-  "confidence": 0.71
- },
- {
-  "repo": "oven-sh/bun",
-  "number": 838,
+  "number": 983,
   "gold": "question",
   "choice": "question",
-  "p": 0.58,
-  "confidence": 0.48
+  "p": 0.82,
+  "confidence": 0.78
  },
  {
   "repo": "oven-sh/bun",
@@ -3089,163 +5217,43 @@
  },
  {
   "repo": "oven-sh/bun",
-  "number": 770,
-  "gold": "question",
-  "choice": "feature",
-  "p": 0.53,
-  "confidence": 0.41
- },
- {
-  "repo": "oven-sh/bun",
-  "number": 733,
+  "number": 762,
   "gold": "question",
   "choice": "bug",
-  "p": 0.97,
-  "confidence": 0.96
+  "p": 0.79,
+  "confidence": 0.73
  },
  {
   "repo": "oven-sh/bun",
-  "number": 726,
+  "number": 838,
   "gold": "question",
   "choice": "question",
-  "p": 0.72,
-  "confidence": 0.64
+  "p": 0.59,
+  "confidence": 0.5
  },
  {
   "repo": "oven-sh/bun",
   "number": 744,
   "gold": "question",
   "choice": "question",
-  "p": 0.6900000000000001,
-  "confidence": 0.61
- },
- {
-  "repo": "supabase/supabase",
-  "number": 40696,
-  "gold": "question",
-  "choice": "bug",
-  "p": 0.86,
-  "confidence": 0.83
- },
- {
-  "repo": "supabase/supabase",
-  "number": 30340,
-  "gold": "question",
-  "choice": "docs",
-  "p": 0.82,
-  "confidence": 0.77
- },
- {
-  "repo": "supabase/supabase",
-  "number": 40279,
-  "gold": "question",
-  "choice": "bug",
-  "p": 0.9,
-  "confidence": 0.87
- },
- {
-  "repo": "supabase/supabase",
-  "number": 40215,
-  "gold": "question",
-  "choice": "question",
-  "p": 0.81,
-  "confidence": 0.75
- },
- {
-  "repo": "supabase/supabase",
-  "number": 33737,
-  "gold": "question",
-  "choice": "feature",
-  "p": 0.93,
-  "confidence": 0.91
- },
- {
-  "repo": "supabase/supabase",
-  "number": 41958,
-  "gold": "question",
-  "choice": "question",
-  "p": 0.72,
-  "confidence": 0.64
- },
- {
-  "repo": "supabase/supabase",
-  "number": 33596,
-  "gold": "question",
-  "choice": "bug",
-  "p": 0.98,
-  "confidence": 0.97
- },
- {
-  "repo": "supabase/supabase",
-  "number": 28249,
-  "gold": "question",
-  "choice": "question",
-  "p": 0.96,
-  "confidence": 0.94
- },
- {
-  "repo": "supabase/supabase",
-  "number": 12293,
-  "gold": "question",
-  "choice": "bug",
-  "p": 0.85,
-  "confidence": 0.81
- },
- {
-  "repo": "supabase/supabase",
-  "number": 180,
-  "gold": "question",
-  "choice": "question",
-  "p": 0.96,
-  "confidence": 0.94
- },
- {
-  "repo": "supabase/supabase",
-  "number": 190,
-  "gold": "question",
-  "choice": "question",
-  "p": 1,
-  "confidence": 0.99
- },
- {
-  "repo": "supabase/supabase",
-  "number": 155,
-  "gold": "question",
-  "choice": "docs",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "supabase/supabase",
-  "number": 22537,
-  "gold": "question",
-  "choice": "feature",
   "p": 0.68,
   "confidence": 0.59
  },
  {
-  "repo": "supabase/supabase",
-  "number": 198,
-  "gold": "question",
-  "choice": "question",
-  "p": 0.61,
-  "confidence": 0.51
- },
- {
-  "repo": "supabase/supabase",
-  "number": 39556,
-  "gold": "question",
-  "choice": "bug",
-  "p": 0.97,
-  "confidence": 0.96
- },
- {
-  "repo": "TanStack/query",
-  "number": 4693,
+  "repo": "oven-sh/bun",
+  "number": 770,
   "gold": "question",
   "choice": "feature",
-  "p": 1,
-  "confidence": 1
+  "p": 0.55,
+  "confidence": 0.43
+ },
+ {
+  "repo": "oven-sh/bun",
+  "number": 733,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.98
  },
  {
   "repo": "nuxt/nuxt",
@@ -3256,12 +5264,20 @@
   "confidence": 1
  },
  {
-  "repo": "TanStack/query",
-  "number": 4678,
+  "repo": "oven-sh/bun",
+  "number": 726,
   "gold": "question",
-  "choice": "feature",
-  "p": 0.87,
-  "confidence": 0.83
+  "choice": "question",
+  "p": 0.71,
+  "confidence": 0.64
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 22145,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.72,
+  "confidence": 0.64
  },
  {
   "repo": "nuxt/nuxt",
@@ -3273,26 +5289,10 @@
  },
  {
   "repo": "nuxt/nuxt",
-  "number": 21786,
-  "gold": "question",
-  "choice": "question",
-  "p": 0.96,
-  "confidence": 0.95
- },
- {
-  "repo": "nuxt/nuxt",
-  "number": 14512,
-  "gold": "question",
-  "choice": "bug",
-  "p": 0.99,
-  "confidence": 0.98
- },
- {
-  "repo": "nuxt/nuxt",
   "number": 14549,
   "gold": "question",
   "choice": "bug",
-  "p": 0.99,
+  "p": 0.98,
   "confidence": 0.98
  },
  {
@@ -3305,11 +5305,27 @@
  },
  {
   "repo": "nuxt/nuxt",
-  "number": 10313,
+  "number": 21786,
   "gold": "question",
   "choice": "question",
-  "p": 0.91,
-  "confidence": 0.88
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 14512,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 12791,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.75,
+  "confidence": 0.69
  },
  {
   "repo": "nuxt/nuxt",
@@ -3321,67 +5337,27 @@
  },
  {
   "repo": "nuxt/nuxt",
-  "number": 22145,
+  "number": 9709,
   "gold": "question",
-  "choice": "question",
-  "p": 0.7,
-  "confidence": 0.62
- },
- {
-  "repo": "nuxt/nuxt",
-  "number": 9318,
-  "gold": "question",
-  "choice": "bug",
-  "p": 0.98,
-  "confidence": 0.98
- },
- {
-  "repo": "nuxt/nuxt",
-  "number": 9556,
-  "gold": "question",
-  "choice": "question",
-  "p": 0.57,
-  "confidence": 0.46
+  "choice": "feature",
+  "p": 0.76,
+  "confidence": 0.69
  },
  {
   "repo": "nuxt/nuxt",
   "number": 9324,
   "gold": "question",
   "choice": "bug",
-  "p": 0.9,
-  "confidence": 0.87
+  "p": 0.88,
+  "confidence": 0.84
  },
  {
   "repo": "nuxt/nuxt",
-  "number": 9709,
-  "gold": "question",
-  "choice": "feature",
-  "p": 0.75,
-  "confidence": 0.68
- },
- {
-  "repo": "nuxt/nuxt",
-  "number": 9098,
+  "number": 9556,
   "gold": "question",
   "choice": "question",
-  "p": 0.51,
-  "confidence": 0.37
- },
- {
-  "repo": "nuxt/nuxt",
-  "number": 12791,
-  "gold": "question",
-  "choice": "question",
-  "p": 0.8,
-  "confidence": 0.74
- },
- {
-  "repo": "nuxt/nuxt",
-  "number": 9156,
-  "gold": "question",
-  "choice": "question",
-  "p": 0.98,
-  "confidence": 0.98
+  "p": 0.54,
+  "confidence": 0.42
  },
  {
   "repo": "nuxt/nuxt",
@@ -3393,15 +5369,39 @@
  },
  {
   "repo": "nuxt/nuxt",
-  "number": 8952,
+  "number": 9156,
   "gold": "question",
-  "choice": "bug",
-  "p": 0.84,
-  "confidence": 0.79
+  "choice": "question",
+  "p": 0.98,
+  "confidence": 0.97
  },
  {
   "repo": "nuxt/nuxt",
-  "number": 8705,
+  "number": 9318,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 10313,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.91,
+  "confidence": 0.89
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8952,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.86,
+  "confidence": 0.82
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 9035,
   "gold": "question",
   "choice": "question",
   "p": 0.89,
@@ -3409,27 +5409,11 @@
  },
  {
   "repo": "nuxt/nuxt",
-  "number": 8649,
-  "gold": "question",
-  "choice": "question",
-  "p": 0.86,
-  "confidence": 0.83
- },
- {
-  "repo": "nuxt/nuxt",
-  "number": 9035,
-  "gold": "question",
-  "choice": "question",
-  "p": 0.87,
-  "confidence": 0.83
- },
- {
-  "repo": "nuxt/nuxt",
-  "number": 8710,
+  "number": 9098,
   "gold": "question",
   "choice": "bug",
-  "p": 0.82,
-  "confidence": 0.77
+  "p": 0.52,
+  "confidence": 0.39
  },
  {
   "repo": "nuxt/nuxt",
@@ -3441,11 +5425,19 @@
  },
  {
   "repo": "nuxt/nuxt",
-  "number": 8571,
+  "number": 8710,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.83,
+  "confidence": 0.78
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8649,
   "gold": "question",
   "choice": "question",
-  "p": 0.98,
-  "confidence": 0.97
+  "p": 0.86,
+  "confidence": 0.82
  },
  {
   "repo": "nuxt/nuxt",
@@ -3457,19 +5449,11 @@
  },
  {
   "repo": "nuxt/nuxt",
-  "number": 8507,
-  "gold": "question",
-  "choice": "feature",
-  "p": 1,
-  "confidence": 1
- },
- {
-  "repo": "nuxt/nuxt",
-  "number": 8387,
+  "number": 8322,
   "gold": "question",
   "choice": "bug",
-  "p": 0.99,
-  "confidence": 0.98
+  "p": 0.92,
+  "confidence": 0.9
  },
  {
   "repo": "nuxt/nuxt",
@@ -3481,11 +5465,35 @@
  },
  {
   "repo": "nuxt/nuxt",
-  "number": 8322,
+  "number": 8507,
+  "gold": "question",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8571,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8705,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.9,
+  "confidence": 0.87
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8387,
   "gold": "question",
   "choice": "bug",
-  "p": 0.92,
-  "confidence": 0.89
+  "p": 0.99,
+  "confidence": 0.98
  },
  {
   "repo": "nuxt/nuxt",
@@ -3493,15 +5501,7 @@
   "gold": "question",
   "choice": "question",
   "p": 0.89,
-  "confidence": 0.87
- },
- {
-  "repo": "nuxt/nuxt",
-  "number": 8095,
-  "gold": "question",
-  "choice": "question",
-  "p": 1,
-  "confidence": 1
+  "confidence": 0.86
  },
  {
   "repo": "nuxt/nuxt",
@@ -3513,10 +5513,890 @@
  },
  {
   "repo": "nuxt/nuxt",
+  "number": 8095,
+  "gold": "question",
+  "choice": "question",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "nuxt/nuxt",
   "number": 8036,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.96,
+  "confidence": 0.94
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 7960,
+  "gold": "question",
+  "choice": "question",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8002,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.74,
+  "confidence": 0.67
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 7858,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.66,
+  "confidence": 0.57
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 7979,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.91,
+  "confidence": 0.89
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 8034,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.67,
+  "confidence": 0.59
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 7804,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.97,
+  "confidence": 0.95
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 41958,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.78,
+  "confidence": 0.72
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 40696,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.85,
+  "confidence": 0.82
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 40279,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.88,
+  "confidence": 0.85
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 39556,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 40215,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.78,
+  "confidence": 0.73
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 30340,
+  "gold": "question",
+  "choice": "docs",
+  "p": 0.81,
+  "confidence": 0.77
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 33737,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.92,
+  "confidence": 0.9
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 33596,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "nuxt/nuxt",
+  "number": 7847,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.93,
+  "confidence": 0.91
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 28249,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.97,
+  "confidence": 0.95
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 22537,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.7,
+  "confidence": 0.61
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 198,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.6,
+  "confidence": 0.5
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 155,
+  "gold": "question",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 12293,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.87,
+  "confidence": 0.84
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 190,
+  "gold": "question",
+  "choice": "question",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "supabase/supabase",
+  "number": 180,
   "gold": "question",
   "choice": "question",
   "p": 0.95,
   "confidence": 0.93
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 11457,
+  "gold": "question",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 11423,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.55,
+  "confidence": 0.42
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 11426,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.9400000000000001,
+  "confidence": 0.91
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 11461,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.68,
+  "confidence": 0.6
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 11265,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 12580,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 11249,
+  "gold": "question",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 11187,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.51,
+  "confidence": 0.38
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 11000,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.94,
+  "confidence": 0.93
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 11273,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10998,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.82,
+  "confidence": 0.77
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10973,
+  "gold": "question",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10923,
+  "gold": "question",
+  "choice": "docs",
+  "p": 0.81,
+  "confidence": 0.76
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10805,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.81,
+  "confidence": 0.75
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10920,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.85,
+  "confidence": 0.81
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10803,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.64,
+  "confidence": 0.55
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10770,
+  "gold": "question",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 11023,
+  "gold": "question",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10764,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.87,
+  "confidence": 0.83
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10714,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.48,
+  "confidence": 0.35
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10681,
+  "gold": "question",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10668,
+  "gold": "question",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10735,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.69,
+  "confidence": 0.61
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10752,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10722,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.91,
+  "confidence": 0.89
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10685,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.74,
+  "confidence": 0.66
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10487,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.5,
+  "confidence": 0.39
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10636,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10515,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.9299999999999999,
+  "confidence": 0.92
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10471,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10447,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.84,
+  "confidence": 0.8
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10511,
+  "gold": "question",
+  "choice": "question",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10413,
+  "gold": "question",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10330,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10272,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.95,
+  "confidence": 0.94
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10332,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 13399,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10243,
+  "gold": "question",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10220,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "pydantic/pydantic",
+  "number": 10221,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.54,
+  "confidence": 0.42
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 11251,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.91,
+  "confidence": 0.89
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 13175,
+  "gold": "question",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 13022,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 12245,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 12239,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.75,
+  "confidence": 0.69
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 11134,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.5700000000000001,
+  "confidence": 0.45
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 10997,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.78,
+  "confidence": 0.72
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 12246,
+  "gold": "question",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 10720,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.96,
+  "confidence": 0.95
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 10719,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 11215,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.5,
+  "confidence": 0.37
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 12240,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 10259,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 5946,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 5938,
+  "gold": "question",
+  "choice": "question",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 6007,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.64,
+  "confidence": 0.54
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 5928,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.98,
+  "confidence": 0.97
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 5934,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.86,
+  "confidence": 0.83
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 5932,
+  "gold": "question",
+  "choice": "question",
+  "p": 1,
+  "confidence": 0.99
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 5939,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.89,
+  "confidence": 0.86
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 5935,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.54,
+  "confidence": 0.42
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 5926,
+  "gold": "question",
+  "choice": "question",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 5911,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.97,
+  "confidence": 0.97
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 5922,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.83,
+  "confidence": 0.79
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 5909,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.89,
+  "confidence": 0.86
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 5919,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.79,
+  "confidence": 0.73
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 5908,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.9400000000000001,
+  "confidence": 0.92
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 5921,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.74,
+  "confidence": 0.68
+ },
+ {
+  "repo": "astral-sh/ruff",
+  "number": 28672,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.99
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 5899,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.95,
+  "confidence": 0.93
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 5895,
+  "gold": "question",
+  "choice": "docs",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 5894,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.97,
+  "confidence": 0.96
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 5903,
+  "gold": "question",
+  "choice": "question",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 5902,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.78,
+  "confidence": 0.71
+ },
+ {
+  "repo": "fastapi/fastapi",
+  "number": 5893,
+  "gold": "question",
+  "choice": "question",
+  "p": 0.73,
+  "confidence": 0.65
+ },
+ {
+  "repo": "astral-sh/ruff",
+  "number": 28483,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.91,
+  "confidence": 0.88
+ },
+ {
+  "repo": "astral-sh/ruff",
+  "number": 28512,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.99,
+  "confidence": 0.98
+ },
+ {
+  "repo": "astral-sh/ruff",
+  "number": 28415,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.89,
+  "confidence": 0.86
+ },
+ {
+  "repo": "astral-sh/ruff",
+  "number": 28190,
+  "gold": "question",
+  "choice": "docs",
+  "p": 0.62,
+  "confidence": 0.53
+ },
+ {
+  "repo": "astral-sh/ruff",
+  "number": 28097,
+  "gold": "question",
+  "choice": "feature",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "astral-sh/ruff",
+  "number": 28184,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.81,
+  "confidence": 0.76
+ },
+ {
+  "repo": "astral-sh/ruff",
+  "number": 28308,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "astral-sh/ruff",
+  "number": 27982,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.77,
+  "confidence": 0.71
+ },
+ {
+  "repo": "astral-sh/ruff",
+  "number": 27607,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.8,
+  "confidence": 0.74
+ },
+ {
+  "repo": "astral-sh/ruff",
+  "number": 27930,
+  "gold": "question",
+  "choice": "bug",
+  "p": 1,
+  "confidence": 1
+ },
+ {
+  "repo": "astral-sh/ruff",
+  "number": 27775,
+  "gold": "question",
+  "choice": "bug",
+  "p": 0.98,
+  "confidence": 0.98
+ },
+ {
+  "repo": "astral-sh/ruff",
+  "number": 27557,
+  "gold": "question",
+  "choice": "feature",
+  "p": 0.93,
+  "confidence": 0.91
  }
 ]

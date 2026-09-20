@@ -62,6 +62,32 @@ for (const t of [0.5, 0.6, 0.7, 0.8, 0.85, 0.9, 0.95]) {
   console.log(line(t.toFixed(2), `${acted.length}/${out.length}`, right, pct(prec), pct(1 - acted.length / out.length)));
 }
 
+// Per class and per ecosystem, because the average hides both.
+const at = (t, c) => out.filter((r) => r.choice && r.choice !== "none" && r.p >= t && r.confidence >= c);
+const prec = (rs) => (rs.length ? rs.filter((r) => r.choice === r.gold).length / rs.length : 0);
+const shipped = at(0.8, 0.6);
+const gold = new Map(rows.map((r) => [`${r.repo}#${r.number}`, r]));
+
+console.log("\nBy class, at the shipped default:");
+for (const g of ["bug", "feature", "docs", "question"]) {
+  const sub = shipped.filter((r) => r.gold === g);
+  if (sub.length) console.log(`  ${g.padEnd(9)} ${String(sub.filter((r) => r.choice === r.gold).length).padStart(4)}/${String(sub.length).padEnd(4)} ${pct(prec(sub))}`);
+}
+const eco = {};
+for (const r of shipped) {
+  const e = gold.get(`${r.repo}#${r.number}`)?.ecosystem ?? "other";
+  (eco[e] ??= []).push(r);
+}
+if (Object.keys(eco).length > 1) {
+  console.log("\nBy ecosystem, at the shipped default:");
+  for (const [e, rs] of Object.entries(eco).sort((a, b) => b[1].length - a[1].length)) {
+    const noQ = rs.filter((r) => r.gold !== "question");
+    console.log(`  ${e.padEnd(9)} ${String(rs.length).padStart(4)} decisions  ${pct(prec(rs))}   ${pct(prec(noQ))} excluding question`);
+  }
+}
+const noQ = shipped.filter((r) => r.gold !== "question");
+console.log(`\nExcluding question: ${noQ.filter((r) => r.choice === r.gold).length}/${noQ.length} = ${pct(prec(noQ))}`);
+
 // What it gets wrong when it does act, at the shipped default.
 const d = out.filter((r) => r.choice && r.choice !== "none" && r.p >= 0.8 && r.confidence >= 0.6);
 const wrong = d.filter((r) => r.choice !== r.gold);
