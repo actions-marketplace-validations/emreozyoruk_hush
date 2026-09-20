@@ -5,10 +5,7 @@ import { readFileSync, appendFileSync } from "node:fs";
 import { ask } from "./jev.js";
 import { buildQuestions, buildState, decide, labelsToApply, abstained, ABSTAIN } from "./triage.js";
 import { addLabels, comment, existingLabels, openIssueTitles } from "./github.js";
-
-const input = (name, fallback = "") => process.env[`INPUT_${name.toUpperCase().replace(/-/g, "_")}`] ?? fallback;
-const bool = (name, fallback) => { const v = input(name).trim().toLowerCase(); return v === "" ? fallback : v === "true"; };
-const num = (name, fallback) => { const v = parseFloat(input(name)); return Number.isFinite(v) ? v : fallback; };
+import { readBool as bool, readInput as input, readNum as num } from "./inputs.js";
 
 const DEFAULT_LABELS = {
   bug: "A defect: something in the project behaves incorrectly.",

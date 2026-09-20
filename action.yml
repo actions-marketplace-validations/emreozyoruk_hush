@@ -53,5 +53,5 @@ inputs:
     default: "0.85"
 
 runs:
-  using: "node20"
+  using: "node24"
   main: "src/index.js"

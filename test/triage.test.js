@@ -80,3 +80,26 @@ test("the duplicate question is only asked when there is something to compare wi
 test("the label question always offers a way out", () => {
   assert.ok("none" in buildQuestions(LABELS, { checkDuplicate: false }).label.criteria);
 });
+
+// ── inputs ──────────────────────────────────────────────────────────────────
+import { envName, readBool, readInput, readNum } from "../src/inputs.js";
+
+test("a dashed input keeps its dashes, the way GitHub passes it", () => {
+  assert.equal(envName("typesafe-api-key"), "INPUT_TYPESAFE-API-KEY");
+  assert.equal(readInput("typesafe-api-key", { "INPUT_TYPESAFE-API-KEY": "k" }), "k");
+});
+
+test("an underscored variant still works, for running the file by hand", () => {
+  assert.equal(readInput("typesafe-api-key", { INPUT_TYPESAFE_API_KEY: "k" }), "k");
+});
+
+test("a missing input is empty, not undefined", () => {
+  assert.equal(readInput("nope", {}), "");
+});
+
+test("booleans and numbers fall back rather than turning into NaN", () => {
+  assert.equal(readBool("apply", false, {}), false);
+  assert.equal(readBool("apply", false, { "INPUT_APPLY": "true" }), true);
+  assert.equal(readNum("label-threshold", 0.8, {}), 0.8);
+  assert.equal(readNum("label-threshold", 0.8, { "INPUT_LABEL-THRESHOLD": "0.95" }), 0.95);
+});
