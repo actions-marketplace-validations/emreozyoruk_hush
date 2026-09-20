@@ -1,0 +1,11 @@
+{
+  "action": "opened",
+  "issue": {
+    "number": 7,
+    "title": "Crash on save when filename is very long",
+    "body": "v2.1.0 on macOS 15.\n\nSteps:\n1. open the app\n2. save as a 300-character filename\n3. it crashes\n\nStack: TypeError: path too long at save.js:44",
+    "user": { "login": "octocat" },
+    "author_association": "FIRST_TIME_CONTRIBUTOR",
+    "labels": []
+  }
+}

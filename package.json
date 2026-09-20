@@ -1,0 +1,9 @@
+{
+  "name": "hush-action",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Issue triage that stays quiet when it is not sure.",
+  "scripts": { "test": "node test/run.js" },
+  "license": "MIT"
+}

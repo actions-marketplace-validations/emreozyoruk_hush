@@ -1,0 +1,57 @@
+name: "hush"
+description: "Issue triage that stays quiet when it is not sure. Labels, spam and duplicate detection with calibrated abstention."
+author: "Emre Özyörük"
+branding:
+  icon: "volume-x"
+  color: "purple"
+
+inputs:
+  typesafe-api-key:
+    description: "TypeSafe API key. Get one at https://console.typesafe.ai/keys"
+    required: true
+  github-token:
+    description: "Token used to read issues and apply labels."
+    required: false
+    default: ${{ github.token }}
+  apply:
+    description: "Apply labels. Leave false to watch what it would do first."
+    required: false
+    default: "false"
+  comment:
+    description: "Post a comment explaining what was applied and what it stayed quiet on."
+    required: false
+    default: "false"
+  labels:
+    description: >
+      JSON object of label name → what that label means. The description is what the
+      model judges against, so write it the way you would explain it to a new maintainer.
+    required: false
+    default: ""
+  check-duplicates:
+    description: "Compare against the titles of other open issues."
+    required: false
+    default: "true"
+  label-threshold:
+    description: "Probability the chosen label needs before it is applied."
+    required: false
+    default: "0.8"
+  label-confidence-threshold:
+    description: "Confidence the model needs in its own read before a label is applied."
+    required: false
+    default: "0.6"
+  spam-threshold:
+    description: "Probability required to mark an issue as spam."
+    required: false
+    default: "0.9"
+  needs-info-threshold:
+    description: "Probability required to mark an issue as missing information."
+    required: false
+    default: "0.85"
+  duplicate-threshold:
+    description: "Probability required to flag a possible duplicate."
+    required: false
+    default: "0.85"
+
+runs:
+  using: "node20"
+  main: "src/index.js"
