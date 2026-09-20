@@ -1,4 +1,4 @@
-name: "hush"
+name: "Hush Issue Triage"
 description: "Issue triage that stays quiet when it is not sure. Labels, spam and duplicate detection with calibrated abstention."
 author: "Emre Özyörük"
 branding:
