@@ -3,6 +3,7 @@
 **Issue and pull request triage that stays quiet when it isn't sure.**
 
 [![Marketplace](https://img.shields.io/badge/GitHub%20Marketplace-Hush%20Issue%20Triage-6f42c1?logo=github)](https://github.com/marketplace/actions/hush-issue-triage)
+[![npm](https://img.shields.io/npm/v/hush-triage?logo=npm&color=cb3837)](https://www.npmjs.com/package/hush-triage)
 [![Tests](https://github.com/emreozyoruk/hush/actions/workflows/test.yml/badge.svg)](https://github.com/emreozyoruk/hush/actions/workflows/test.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -66,7 +67,7 @@ Before adding anything to a repository, point it at one:
 
 ```bash
 export TYPESAFE_API_KEY=...          # console.typesafe.ai/keys
-npx github:emreozyoruk/hush owner/repo
+npx hush-triage owner/repo
 ```
 
 ```

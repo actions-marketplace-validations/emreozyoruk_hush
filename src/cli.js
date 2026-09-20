@@ -17,7 +17,7 @@ const T = { label: 0.8, label_confidence: 0.6, spam: 0.9, needs_info: 0.85, dupl
 const USAGE = `
 ${C.b}hush${C.r} — see what it would do to a backlog you already have.
 
-  ${C.c}npx github:emreozyoruk/hush${C.r} <owner/repo> [options]
+  ${C.c}npx hush-triage${C.r} <owner/repo> [options]
 
   --limit <n>        how many open issues to judge (default 20, max 100)
   --labels <json>    your label taxonomy, as {"name": "what it means"}
