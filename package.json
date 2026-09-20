@@ -1,9 +1,35 @@
 {
-  "name": "hush-action",
-  "version": "0.1.0",
-  "private": true,
+  "name": "hush-triage",
+  "version": "1.0.0",
+  "private": false,
   "type": "module",
   "description": "Issue triage that stays quiet when it is not sure.",
-  "scripts": { "test": "node test/run.js" },
-  "license": "MIT"
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "bin": {
+    "hush-triage": "src/cli.js"
+  },
+  "files": [
+    "src",
+    "action.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emreozyoruk/hush.git"
+  },
+  "keywords": [
+    "github-action",
+    "issue-triage",
+    "triage",
+    "jev",
+    "typesafe",
+    "labels"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
 }

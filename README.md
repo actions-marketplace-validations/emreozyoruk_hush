@@ -60,6 +60,39 @@ Below the line, it abstains. Silence is the default behaviour, not the failure m
 It is also cheap enough to leave on: one request per issue, around
 **$0.00002**. Ten thousand issues cost about twenty cents.
 
+## Try it on a backlog you already have
+
+Before adding anything to a repository, point it at one:
+
+```bash
+export TYPESAFE_API_KEY=...          # console.typesafe.ai/keys
+npx github:emreozyoruk/hush owner/repo
+```
+
+```
+remotion-dev/remotion · 6 open issues · nothing will be written
+
+#11474 Codemods: It always creates a full copy of the enti…  needs-more-info, bug
+      · spam       spam 4% < 90%
+      · duplicate  duplicate 10% < 85%
+      ✓ needs_info needs info 90% ≥ 85%
+      ✓ label      bug 92% ≥ 80%, confidence 89% ≥ 60%
+#11469 Video matting: Allow setting default…                 feature
+      · spam       spam 3% < 90%
+      · duplicate  duplicate 22% < 85%
+      · needs_info needs info 79% < 85%
+      ✓ label      feature 100% ≥ 80%, confidence 100% ≥ 60%
+
+6 of 6 would get a label · 0 left alone
+237 ms average · $0.00033 total
+```
+
+Those two rows are the whole design: 90% cleared the needs-info threshold, 79%
+did not, and the second issue was left alone on that question.
+
+It reads issues and writes nothing — there is no `--apply`. Use `--limit`,
+`--labels` with your own taxonomy, and `--json` to pipe it somewhere.
+
 ## Install
 
 ```yaml
