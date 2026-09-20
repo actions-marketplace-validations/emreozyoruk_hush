@@ -42,11 +42,14 @@ const ECOSYSTEM = {
 
 // The same meaning, spelled a dozen ways across repos.
 const SEARCH = {
-  bug: ["bug", "kind/bug", "type: bug", "C-bug", "Bug", "type/bug", "T-bug", "kind/failing-test"],
-  feature: ["enhancement", "feature request", "kind/feature", "C-feature", "Feature Request",
-            "type: feature", "A-feature", "type/feature"],
-  docs: ["documentation", "docs", "kind/docs", "area: docs", "A-docs", "type/docs", "Docs"],
-  question: ["question", "kind/question", "support", "Question", "type/question"],
+  bug: ["bug", "Bug", "kind/bug", "type: bug", "type/bug", "C-bug", "T-bug"],
+  feature: ["enhancement", "Enhancement", "feature request", "kind/feature", "kind/enhancement",
+            "C-enhancement", "C-feature", "C-feature-request", "type/feature", "type/enhancement",
+            "Feature Request", "type: feature"],
+  docs: ["documentation", "docs", "Docs", "doc", "kind/docs", "area: docs", "A-documentation",
+         "T-docs", "type/docs", "component/documentation", "Docs"],
+  question: ["question", "Question", "kind/question", "support", "C-support", "C-question",
+             "type/question"],
 };
 const MAP = Object.fromEntries(Object.entries(SEARCH).flatMap(([g, ls]) => ls.map((l) => [l.toLowerCase(), g])));
 
