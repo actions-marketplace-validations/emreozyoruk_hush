@@ -1,6 +1,6 @@
 # hush
 
-**Issue triage that stays quiet when it isn't sure.**
+**Issue and pull request triage that stays quiet when it isn't sure.**
 
 [![Marketplace](https://img.shields.io/badge/GitHub%20Marketplace-Hush%20Issue%20Triage-6f42c1?logo=github)](https://github.com/marketplace/actions/hush-issue-triage)
 [![Tests](https://github.com/emreozyoruk/hush/actions/workflows/test.yml/badge.svg)](https://github.com/emreozyoruk/hush/actions/workflows/test.yml)
@@ -189,6 +189,37 @@ creates labels, never removes one, and never touches a label a human added.
 
 All four travel in **one** request, which is why triage costs a fraction of a cent
 and finishes before the page reloads.
+
+## Pull requests
+
+Point it at `pull_request` and it asks a different set of questions — the ones a
+reviewer has before opening the diff:
+
+```yaml
+on:
+  pull_request_target:
+    types: [opened, edited, reopened, ready_for_review]
+
+permissions:
+  pull-requests: write
+```
+
+| question | applies | asks |
+|---|---|---|
+| **kind** | `fix` `feature` `docs` `refactor` `chore` `test` | What sort of change is this? |
+| **risky** | `needs-careful-review` | Does it touch migrations, auth, permissions, payments, deletion paths, public API or deploy config? |
+| **untested** | `needs-tests` | Did behaviour change with no test in the diff? |
+| **undescribed** | `needs-description` | Would a reviewer have to read the diff to learn what it does? |
+
+It sees the title, the description, the file list with per-file line counts, the
+commit count and whether this is the author's first contribution — not the diff
+body. On three real pull requests from `supabase`, `prisma` and `vite` it called
+the kind correctly every time and raised none of the three flags, which is the
+right answer for well-tested changes from mature repositories.
+
+Thresholds: `risky-threshold` (0.80), `untested-threshold` (0.85),
+`undescribed-threshold` (0.85). The `kind` choice reuses `label-threshold` and
+`label-confidence-threshold`.
 
 ## Inputs
 

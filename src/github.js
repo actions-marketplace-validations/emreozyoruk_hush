@@ -32,6 +32,10 @@ export async function existingLabels(token, repo) {
   return new Set(items.map((l) => l.name));
 }
 
+/** The diff's shape, which is most of what a reviewer judges a PR on. */
+export const pullFiles = (token, repo, number) =>
+  gh(token, `/repos/${repo}/pulls/${number}/files?per_page=100`);
+
 export const addLabels = (token, repo, number, labels) =>
   gh(token, `/repos/${repo}/issues/${number}/labels`, { method: "POST", body: JSON.stringify({ labels }) });
 

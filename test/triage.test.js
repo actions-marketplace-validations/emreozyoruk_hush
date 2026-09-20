@@ -103,3 +103,50 @@ test("booleans and numbers fall back rather than turning into NaN", () => {
   assert.equal(readNum("label-threshold", 0.8, {}), 0.8);
   assert.equal(readNum("label-threshold", 0.8, { "INPUT_LABEL-THRESHOLD": "0.95" }), 0.95);
 });
+
+// ── pull requests ───────────────────────────────────────────────────────────
+import { DEFAULT_PR_LABELS, buildPRQuestions, buildPRState, decidePR } from "../src/pr.js";
+
+const PT = { kind: 0.8, kind_confidence: 0.6, risky: 0.8, untested: 0.85, undescribed: 0.85 };
+
+test("a risky change is flagged for a careful review", () => {
+  const ds = decidePR({ risky: { noul: 0.93 } }, PT, DEFAULT_PR_LABELS);
+  assert.equal(find(ds, "risky").value, "needs-careful-review");
+});
+
+test("an ordinary change is not", () => {
+  assert.equal(find(decidePR({ risky: { noul: 0.4 } }, PT, DEFAULT_PR_LABELS), "risky").action, ABSTAIN);
+});
+
+test("behaviour without a test asks for one, above the bar", () => {
+  assert.equal(find(decidePR({ untested: { noul: 0.91 } }, PT, DEFAULT_PR_LABELS), "untested").value, "needs-tests");
+  assert.equal(find(decidePR({ untested: { noul: 0.7 } }, PT, DEFAULT_PR_LABELS), "untested").action, ABSTAIN);
+});
+
+test("a pull request kind needs probability and confidence, like an issue label", () => {
+  assert.equal(find(decidePR({ kind: { choice: "fix", probabilities: { fix: 0.9 }, confidence: 0.8 } }, PT, DEFAULT_PR_LABELS), "kind").value, "fix");
+  assert.equal(find(decidePR({ kind: { choice: "fix", probabilities: { fix: 0.9 }, confidence: 0.2 } }, PT, DEFAULT_PR_LABELS), "kind").action, ABSTAIN);
+});
+
+test("the diff's shape is what the model is shown", () => {
+  const s = buildPRState({
+    title: "Add retry to the client", body: "", author: "ada", isFirstTimeContributor: true,
+    files: [{ filename: "src/client.ts", additions: 40, deletions: 2 }], additions: 40, deletions: 2, commits: 3,
+  });
+  assert.match(s, /src\/client\.ts \(\+40 −2\)/);
+  assert.match(s, /3 commit\(s\), 1 file\(s\), \+40 −2/);
+  assert.match(s, /first contribution/);
+  assert.match(s, /\(none — the author left the description empty\)/);
+});
+
+test("a long diff is truncated, and says so", () => {
+  const files = Array.from({ length: 80 }, (_, i) => ({ filename: `f${i}.ts`, additions: 1, deletions: 0 }));
+  assert.match(buildPRState({ title: "t", body: "b", author: "a", files, additions: 80, deletions: 0, commits: 1 }),
+    /first 50 of 80/);
+});
+
+test("the pull request question set asks the three a reviewer wants flagged", () => {
+  const q = buildPRQuestions(DEFAULT_PR_LABELS);
+  assert.deepEqual(Object.keys(q).sort(), ["kind", "risky", "undescribed", "untested"]);
+  assert.ok("none" in q.kind.criteria);
+});

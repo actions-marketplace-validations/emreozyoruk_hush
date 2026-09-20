@@ -1,0 +1,19 @@
+# hush on its own pull requests. Reporting only: a wrong flag on someone's first
+# contribution costs more than a missing one.
+name: triage-prs
+on:
+  pull_request_target:
+    types: [opened, edited, reopened, ready_for_review]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  hush:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./
+        with:
+          typesafe-api-key: ${{ secrets.TYPESAFE_API_KEY }}
+          apply: false

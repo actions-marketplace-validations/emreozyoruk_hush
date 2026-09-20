@@ -1,5 +1,5 @@
 name: "Hush Issue Triage"
-description: "Issue triage that stays quiet when it is not sure. Labels, spam and duplicate detection with calibrated abstention."
+description: "Issue and pull request triage that stays quiet when it is not sure. Calibrated labels, spam, duplicates, and PR risk flags."
 author: "Emre Özyörük"
 branding:
   icon: "volume-x"
@@ -25,6 +25,7 @@ inputs:
     description: >
       JSON object of label name → what that label means. The description is what the
       model judges against, so write it the way you would explain it to a new maintainer.
+      Issues and pull requests have separate defaults; this overrides whichever is running.
     required: false
     default: ""
   check-duplicates:
@@ -48,7 +49,19 @@ inputs:
     required: false
     default: "0.85"
   duplicate-threshold:
-    description: "Probability required to flag a possible duplicate."
+    description: "Probability required to flag a possible duplicate. Issues only."
+    required: false
+    default: "0.85"
+  risky-threshold:
+    description: "Pull requests: probability required to flag a change as expensive to get wrong."
+    required: false
+    default: "0.8"
+  untested-threshold:
+    description: "Pull requests: probability required to flag behaviour changed without a test."
+    required: false
+    default: "0.85"
+  undescribed-threshold:
+    description: "Pull requests: probability required to flag a description that explains nothing."
     required: false
     default: "0.85"
 

@@ -9,19 +9,44 @@
 import { writeFileSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 
+// Deliberately spread across ecosystems: the first run was entirely
+// JavaScript-adjacent, which is a poor basis for a default anyone installs.
 const REPOS = [
-  "vercel/next.js", "sveltejs/svelte", "vitejs/vite", "denoland/deno", "withastro/astro",
-  "prisma/prisma", "tailwindlabs/tailwindcss", "remix-run/react-router", "biomejs/biome",
-  "oven-sh/bun", "supabase/supabase", "TanStack/query", "nuxt/nuxt", "expo/expo",
-  "storybookjs/storybook", "pnpm/pnpm", "rollup/rollup", "vuejs/core",
+  // JavaScript / TypeScript
+  "vercel/next.js", "sveltejs/svelte", "vitejs/vite", "denoland/deno", "oven-sh/bun",
+  "nuxt/nuxt", "vuejs/core", "storybookjs/storybook", "supabase/supabase",
+  // Python
+  "pydantic/pydantic", "fastapi/fastapi", "pandas-dev/pandas", "astral-sh/ruff",
+  "psf/black", "scikit-learn/scikit-learn", "python-poetry/poetry", "encode/httpx",
+  // Go
+  "gohugoio/hugo", "grafana/grafana", "kubernetes/minikube", "cli/cli",
+  "go-gitea/gitea", "prometheus/prometheus",
+  // Rust
+  "rust-lang/rust-analyzer", "tokio-rs/tokio", "serde-rs/serde", "BurntSushi/ripgrep",
+  "sharkdp/fd", "rust-lang/cargo",
 ];
+
+// Recorded alongside each row so precision can be read per ecosystem.
+const ECOSYSTEM = {
+  "vercel/next.js":"js","sveltejs/svelte":"js","vitejs/vite":"js","denoland/deno":"js",
+  "oven-sh/bun":"js","nuxt/nuxt":"js","vuejs/core":"js","storybookjs/storybook":"js",
+  "supabase/supabase":"js",
+  "pydantic/pydantic":"python","fastapi/fastapi":"python","pandas-dev/pandas":"python",
+  "astral-sh/ruff":"python","psf/black":"python","scikit-learn/scikit-learn":"python",
+  "python-poetry/poetry":"python","encode/httpx":"python",
+  "gohugoio/hugo":"go","grafana/grafana":"go","kubernetes/minikube":"go","cli/cli":"go",
+  "go-gitea/gitea":"go","prometheus/prometheus":"go",
+  "rust-lang/rust-analyzer":"rust","tokio-rs/tokio":"rust","serde-rs/serde":"rust",
+  "BurntSushi/ripgrep":"rust","sharkdp/fd":"rust","rust-lang/cargo":"rust",
+};
 
 // The same meaning, spelled a dozen ways across repos.
 const SEARCH = {
-  bug: ["bug", "kind/bug", "type: bug", "C-bug"],
-  feature: ["enhancement", "feature request", "kind/feature", "C-feature"],
-  docs: ["documentation", "docs", "kind/docs", "area: docs"],
-  question: ["question", "kind/question", "support"],
+  bug: ["bug", "kind/bug", "type: bug", "C-bug", "Bug", "type/bug", "T-bug", "kind/failing-test"],
+  feature: ["enhancement", "feature request", "kind/feature", "C-feature", "Feature Request",
+            "type: feature", "A-feature", "type/feature"],
+  docs: ["documentation", "docs", "kind/docs", "area: docs", "A-docs", "type/docs", "Docs"],
+  question: ["question", "kind/question", "support", "Question", "type/question"],
 };
 const MAP = Object.fromEntries(Object.entries(SEARCH).flatMap(([g, ls]) => ls.map((l) => [l.toLowerCase(), g])));
 
@@ -40,7 +65,7 @@ async function search(q) {
   return [];
 }
 
-const TARGET = 110;
+const TARGET = 200;
 const rows = [];
 const counts = { bug: 0, feature: 0, docs: 0, question: 0 };
 const seen = new Set();
@@ -61,14 +86,14 @@ for (const [gold, labels] of Object.entries(SEARCH)) {
         const body = (i.body || "").trim();
         if (body.length < 80) continue;
         seen.add(key);
-        rows.push({ repo, number: i.number, title: i.title, body: body.slice(0, 4000), gold });
+        rows.push({ repo, ecosystem: ECOSYSTEM[repo] ?? "other", number: i.number, title: i.title, body: body.slice(0, 4000), gold });
         counts[gold]++;
       }
       await sleep(2200);   // the search API allows 30 requests a minute
     }
   }
   process.stderr.write(`${gold}: ${counts[gold]}\n`);
-  if (rows.length > 500) break outer;
+  if (rows.length > 900) break outer;
 }
 
 console.error("\ntotal", rows.length, counts);
